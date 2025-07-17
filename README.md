@@ -33,7 +33,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
 ### 🧰 Others
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+[![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)](https://github.com/najung-h)
 ![Notion](https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
 
