@@ -48,8 +48,8 @@
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=najung-h&show_icons=true&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=najung-h&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=najung-h&show_icons=true&theme=default&bg_color=00000000)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=najung-h&layout=compact&bg_color=00000000)
 
 ---
 
