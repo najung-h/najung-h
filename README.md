@@ -1,7 +1,7 @@
 <!-- 깃허브 방문자 수 -->
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
-# 👋 Hello, I'm Junghyun Na!
+# 👋 Hello, I'm 나정현!
 
 코드를 도구 삼아 문제를 해결하고,
 데이터와 디자인으로 세상을 더 편리하게 만드는 사람입니다.
