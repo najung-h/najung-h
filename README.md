@@ -1,5 +1,5 @@
 <!-- 깃허브 방문자 수 -->
-![visitors](https://komarev.com/ghpvc/?username=your-username&color=blue)
+![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 # 👋 Hello, I'm [Junghyun Na]!
 
@@ -30,15 +30,15 @@ I enjoy turning ideas into reality using code and design.
 
 ## 🗂 Featured Projects
 
-- ✨ [Project Name 1](https://github.com/your-username/project1): 짧은 설명
-- 🚀 [Project Name 2](https://github.com/your-username/project2): 짧은 설명
+- ✨ [Project Name 1](https://github.com/najung-h/project1): 짧은 설명
+- 🚀 [Project Name 2](https://github.com/najung-h/project2): 짧은 설명
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=default)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=najung-h&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=najung-h&layout=compact)
 
 ---
 
