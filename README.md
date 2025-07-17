@@ -3,8 +3,19 @@
 
 # 👋 Hello, I'm [Junghyun Na]!
 
-I'm a passionate developer who loves building things that matter.
-I enjoy turning ideas into reality using code and design.
+코드를 도구 삼아 문제를 해결하고,
+데이터와 디자인으로 세상을 더 편리하게 만드는 사람입니다.
+
+👀 사용자 관점의 사고와 논리적인 분석력을 겸비해
+기획부터 구현까지 주도적으로 진행하는 것을 좋아합니다.
+
+⚙️ 다양한 프로젝트 속에서 더 나은 방식을 고민하고,
+실패를 두려워하지 않고 계속 도전합니다.
+
+📌 작은 경험도 기록하고 공유하며 성장하는 개발자가 되고자 합니다.
+
+“일상의 불편을 발견하고, 기술로 해결하는 사람”
+오늘보다 더 나은 내일을 만드는 것이 제 목표입니다.
 
 ---
 
