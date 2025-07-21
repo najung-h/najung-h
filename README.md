@@ -67,7 +67,7 @@
 ## 📫 How to reach me
 
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white)](mailto:junghyun.na321@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/)
 [![Blog](https://img.shields.io/badge/-Tech%20Blog-000000?logo=github&logoColor=white)](https://hadahae2024.tistory.com/)
 
 <!-- README 끝 -->
