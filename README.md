@@ -2,7 +2,7 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 # 👋 HellO
-![JUNGHYUN NA]([C:\Users\SSAFY\Desktop\unnamed.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FtLJ2q%2FbtsPQr69Xuw%2FAAAAAAAAAAAAAAAAAAAAAADT3VhrrXN36FHLSHxGIdCgvPltLoaXeBvEtlRfw7FL%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1756652399%26allow_ip%3D%26allow_referer%3D%26signature%3DI7d0bzwebezKKnG%252BVx4P2WYsG8A%253D))
+![JUNGHYUN NA](https://ifh.cc/v-628gJR)
 
 
 코드를 도구 삼아 문제를 해결하고,
