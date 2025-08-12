@@ -2,7 +2,7 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 # 👋 HellO
-![JUNGHYUN NA](https://ifh.cc/v-628gJR)
+![JUNGHYUN NA](https://ifh.cc/g/628gJR.png)
 
 
 코드를 도구 삼아 문제를 해결하고,
