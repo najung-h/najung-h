@@ -1,8 +1,8 @@
 <!-- 깃허브 방문자 수 -->
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
-# 👋 Hello, I'm 나정현!
-![najungh](https://sdmntprwestus.oaiusercontent.com/files/00000000-9100-6230-b50a-e9acf262baf5/raw?se=2025-08-08T11%3A21%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=7d80668e-f17d-5b28-ab59-14c2aeee7349&skoid=c156db82-7a33-468f-9cdd-06af263ceec8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-08T09%3A06%3A07Z&ske=2025-08-09T09%3A06%3A07Z&sks=b&skv=2024-08-04&sig=EZm8pIA1oOIKBoViBgxu4SAjwU5cU3WAcZuBkTsg3Yg%3D)
+# 👋 HellO
+![najungh]([https://sdmntprwestus.oaiusercontent.com/files/00000000-9100-6230-b50a-e9acf262baf5/raw?se=2025-08-08T11%3A21%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=7d80668e-f17d-5b28-ab59-14c2aeee7349&skoid=c156db82-7a33-468f-9cdd-06af263ceec8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-08T09%3A06%3A07Z&ske=2025-08-09T09%3A06%3A07Z&sks=b&skv=2024-08-04&sig=EZm8pIA1oOIKBoViBgxu4SAjwU5cU3WAcZuBkTsg3Yg%3D](https://lh3.googleusercontent.com/gg-dl/AJfQ9KQjUWnyV0w-eVmCaOlpWPPdys3tyNCHCaWyrt-q4YESPVa4YKbRF_PP9nPMnhJ1G7LsDnh7rFPlfZ-TvneVVBGqjuFZgVeAfmSV2KuFvGgQbYbpeYjzJ0_AqAOPHfWWaNcJaMQNValfTvLjLJu2hqtm5N9WBITBPZK-9-hL98vxd4bkZg))
 
 
 코드를 도구 삼아 문제를 해결하고,
