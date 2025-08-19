@@ -5,19 +5,7 @@
 ![JUNGHYUN NA](https://ifh.cc/g/628gJR.png)
 
 
-코드를 도구 삼아 문제를 해결하고,
-데이터와 디자인으로 세상을 더 편리하게 만드는 사람입니다.
-
-👀 사용자 관점의 사고와 논리적인 분석력을 겸비해
-기획부터 구현까지 주도적으로 진행하는 것을 좋아합니다.
-
-⚙️ 다양한 프로젝트 속에서 더 나은 방식을 고민하고,
-실패를 두려워하지 않고 계속 도전합니다.
-
-📌 작은 경험도 기록하고 공유하며 성장하는 개발자가 되고자 합니다.
-
-“일상의 불편을 발견하고, 기술로 해결하는 사람”
-오늘보다 더 나은 내일을 만드는 것이 제 목표입니다.
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=본인의 백준 ID)](https://solved.ac/junghyun.na321/)
 
 ---
 
@@ -25,13 +13,10 @@
 
 ### 💻 Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+
 
 ### 🛠️ Frameworks & Tools
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
+
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
 ### 🧰 Others
