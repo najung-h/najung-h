@@ -4,9 +4,8 @@
 # 👋 HellO
 ![JUNGHYUN NA](https://ifh.cc/g/628gJR.png)
 
-
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=나정현)](https://solved.ac/{junghyun_na321})
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321)](https://solved.ac/{junghyun_na321})
 
 ---
 
