@@ -1,8 +1,6 @@
-name: Metrics (6 months contributions)
+name: Metrics smoke
 
 on:
-  schedule:
-    - cron: "0 0 * * *"      # 매일 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -12,20 +10,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate metrics (6 months)
+      - name: Smoke: render header only
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}   # ← PAT 대신 내장 토큰
           user: najung-h
           template: classic
-          filename: metrics-6m.svg
-          base: ""
-          config_timezone: Asia/Seoul
-
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
+          base: "header"                      # ← 가장 가벼운 출력
+          filename: metrics-smoke.svg
           output_action: commit
-          committer_branch: master      # ← 기본 브랜치명에 맞춰서 (main이면 main)
-          committer_message: "chore: update metrics-6m.svg"
-
+          committer_branch: master            # 기본 브랜치명 맞추기
+          committer_message: "chore: add metrics-smoke.svg"
