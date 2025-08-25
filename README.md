@@ -64,7 +64,11 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" /> |
 
----
+
+
+![GitHub Snake Light](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake Dark](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake-dark.svg)
+<img src="https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.gif" width="600" />
 
 
 
