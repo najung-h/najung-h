@@ -34,7 +34,20 @@
 | ADsP                                          | 한국데이터산업진흥원          | 2023.11 |
 | SQLD                                          | 한국데이터산업진흥원          | 2024.04 |
 
+
+
+### 📚 Education
+
+| 단체명     | 내용                                     | 재학 기간         |
+| ---------- | ---------------------------------------- | ----------------- |
+| 고려대학교 | 가정교육과 · 수학과 (이중전공)           | 2020.03 ~ 2025.08 |
+| BADA       | 고려대학교 경영학회 (Business Analytics) | 2023.03 - 2023.12 |
+| SSAFY      | 파이썬반                                 | 2025.06- 현재     |
+
+
+
 ### 💼 경력
+
 | 회사명                                          | 직군           | 부서      | 근무 기간   |
 | --------------------------------------------- | ----------------| --------- | ------- |
 | IBK 기업은행                                   | 디지털          | 경제연구소 중기산업연구실 | 2024.01-2024.02 |
@@ -43,15 +56,19 @@
 
 ## 🗂 Featured Projects
 
-- ✨ [Project Name 1](https://github.com/najung-h/project1): 짧은 설명
-- 🚀 [Project Name 2](https://github.com/najung-h/project2): 짧은 설명
+- 
+
+
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=najung-h&show_icons=true&theme=default&bg_color=00000000)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=najung-h&layout=compact&bg_color=00000000)
+### 🎯 Solved.ac 잔디
+[<img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" alt="Solved.ac grass for junghyun_na321" />](https://solved.ac/profile/junghyun_na321)
+
+### 🌱 GitHub 잔디
+[<img src="https://ghchart.rshah.org/219653/najung-h" alt="GitHub contributions grass for najung-h" />](https://github.com/najung-h)
 
 ---
 
