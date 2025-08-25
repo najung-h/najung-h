@@ -1,4 +1,4 @@
-name: Profile Metrics & Snake
+name: Profile 3d grass
 
 on:
   schedule:
@@ -17,6 +17,10 @@ jobs:
       # 1) 저장소 체크아웃
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      # 1-1) dist 폴더 미리 생성 (중요!)
+      - name: Prepare dist folder
+        run: mkdir -p dist
 
       # 2) Metrics (6개월 잔디) 생성 -> 기본 브랜치에 커밋
       - name: Generate 3d grass
