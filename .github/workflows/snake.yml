@@ -1,10 +1,13 @@
-
 name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 6시간마다 실행
-  workflow_dispatch:         # 수동 실행 가능
+    - cron: "0 */6 * * *"   # (UTC) 6시간마다 실행
+  workflow_dispatch:         # 수동 실행
+
+# output 브랜치로 푸시하려면 repo 컨텐츠 쓰기 권한이 필요
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -13,9 +16,9 @@ jobs:
     steps:
       # 저장소 체크아웃
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      # Snake 애니메이션 생성
+      # Snake 애니메이션 생성 (SVG/Dark/GIF -> dist/)
       - name: Generate snake SVG/GIF
         uses: Platane/snk@v3
         with:
@@ -25,22 +28,27 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      # 상태 확인 (디버깅용)
-      - run: git status
+      # (선택) 생성물 확인용
+      - name: List dist
+        run: ls -alh dist || true
 
-      # master 브랜치에 push (필요 없다면 삭제 가능)
-      - name: Push changes
+      # (선택) 기본 브랜치로 커밋/푸시가 필요할 때만 사용
+      #  - 기본 브랜치가 main이라면 branch 값을 main으로 변경
+      #  - 불필요하면 이 스텝 통째로 삭제
+      - name: Push changes to default branch
+        if: ${{ false }} # 필요하면 true로 바꾸거나 이 줄 삭제
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           force: true
 
-      # dist 폴더를 output 브랜치로 배포
+      # dist 폴더를 output 브랜치에 배포
       - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: update snake assets"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
