@@ -24,13 +24,10 @@ jobs:
         with:
           github_user_name: najung-h
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.gif
 
-      # (선택) 생성물 확인용
-      - name: List dist
-        run: ls -alh dist || true
 
       # (선택) 기본 브랜치로 커밋/푸시가 필요할 때만 사용
       #  - 기본 브랜치가 main이라면 branch 값을 main으로 변경
@@ -43,12 +40,4 @@ jobs:
           branch: master
           force: true
 
-      # dist 폴더를 output 브랜치에 배포
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "chore: update snake assets"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
