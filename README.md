@@ -1,10 +1,6 @@
 <!-- 깃허브 방문자 수 -->
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
-# 👋 HellO
-
-
-
 
 
 
@@ -20,6 +16,11 @@
     </td>
   </tr>
 </table>
+
+---
+
+## 
+
 ---
 
 ## 🔧 Tech Stack
@@ -79,11 +80,15 @@
 
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" />
 
-![GitHub Snake Light](https://github.com/najung-h/najung-h/github-contribution-grid-snake.svg)
-![GitHub Snake Dark](https://github.com/najung-h/najung-h/github-contribution-grid-snake-dark.svg)
-<img src="https://github.com/najung-h/najung-h/github-contribution-grid-snake.gif" width="600" />
+## 🐍 Snake & 🌱 3D Grass
 
-<img src="https://raw.githubusercontent.com/najung-h/najung-h/metrics/metrics-6m.svg" width="420" />
+<!-- 3D 잔디 -->
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/output/metrics-6m.svg" width="420" />
+
+<!-- Snake 애니메이션 -->
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/output/github-contribution-grid-snake.svg" width="420" />
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/output/github-contribution-grid-snake-dark.svg" width="420" />
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/output/github-contribution-grid-snake.gif" width="420" />
 
 
 
