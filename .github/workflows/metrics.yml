@@ -1,4 +1,4 @@
-name: Metrics smoke
+name: Metrics (6 months contributions)
 
 on:
   workflow_dispatch:
@@ -10,14 +10,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Smoke: render header only
+      - name: Debug token: whoami
+        env:
+          TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          set -e
+          echo "Checking PAT (classic) with read:user, public_repo ..."
+          RESP=$(curl -s -H "Authorization: token $TOKEN" https://api.github.com/user)
+          echo "$RESP" | grep -q '"login"' || (echo "❌ Token invalid (no login in response)"; echo "$RESP"; exit 1)
+          echo "✅ Token OK. login:" $(echo "$RESP" | sed -n 's/.*"login": *"\([^"]*\)".*/\1/p')
+
+      - name: Generate metrics (6 months)
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # ← PAT 대신 내장 토큰
+          token: ${{ secrets.METRICS_TOKEN }}   # 반드시 classic PAT
           user: najung-h
           template: classic
-          base: "header"                      # ← 가장 가벼운 출력
-          filename: metrics-smoke.svg
+          base: ""
+          config_timezone: Asia/Seoul
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          filename: metrics-6m.svg
           output_action: commit
-          committer_branch: master            # 기본 브랜치명 맞추기
-          committer_message: "chore: add metrics-smoke.svg"
+          committer_branch: master
+          committer_message: "chore: update metrics-6m.svg"
