@@ -2,23 +2,30 @@ name: Metrics (6 months contributions)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 매일 00:00 UTC에 갱신
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # 필수: 본인 GitHub 사용자명
           user: najung-h
           template: classic
-          filename: metrics-6m.svg
+          filename: metrics-6m.svg   # ← 루트에 저장
           base: ""
           config_timezone: Asia/Seoul
-
-          # 잔디(기여 캘린더) 플러그인
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year   # ← 정확히 '최근 6개월'만
+          plugin_isocalendar_duration: half-year
+
+      - name: Commit and push metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics-6m.svg
+          git commit -m "Update metrics"
+          git push

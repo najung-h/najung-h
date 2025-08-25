@@ -87,6 +87,20 @@
 
 
 
+| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" /> |
+
+
+
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/main/metrics-6m.svg" width="420" /> |
+
+
+
+
+
+
+
+
+
 
 
 ## 📊 Activity
