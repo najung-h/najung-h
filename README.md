@@ -2,13 +2,24 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 # 👋 HellO
-<img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="100" style="vertical-align:middle;"/>
-<a href="https://solved.ac/junghyun_na321">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" height="100" style="vertical-align:middle;"/>
-</a>
 
 
 
+
+
+
+<table>
+  <tr>
+    <td>
+      <img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="120">
+    </td>
+    <td>
+      <a href="https://solved.ac/profile/junghyun_na321">
+        <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120">
+      </a>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🔧 Tech Stack
@@ -71,6 +82,8 @@
 ![GitHub Snake Light](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.svg)
 ![GitHub Snake Dark](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake-dark.svg)
 <img src="https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.gif" width="600" />
+
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/metrics/metrics-6m.svg" width="420" />
 
 
 
