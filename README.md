@@ -54,52 +54,7 @@
 
 
 
-## 🗂 Featured Projects
-
-- 
-
-
-
 ---
-
-## 📊 Activity
-
-### 🎯 Solved.ac 잔디
-[<img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" alt="Solved.ac grass for junghyun_na321" />](https://solved.ac/profile/junghyun_na321)
-
-### 🌱 GitHub 잔디
-[<img src="https://ghchart.rshah.org/219653/najung-h" alt="GitHub contributions grass for najung-h" />](https://github.com/najung-h)
-
-
-
-
-
-## 📊 Activity
-
-<div style="display:flex; gap:10px;">
-  <a href="https://solved.ac/profile/junghyun_na321">
-    <img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="400"/>
-  </a>
-  <a href="https://github.com/najung-h">
-    <img src="https://ghchart.rshah.org/219653/najung-h" width="400"/>
-  </a>
-</div>
-
-
-
-| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" /> |
-
-
-
-<img src="https://raw.githubusercontent.com/najung-h/najung-h/main/metrics-6m.svg" width="420" /> |
-
-
-
-
-
-
-
-
 
 
 
@@ -109,13 +64,9 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" /> |
 
+---
 
 
-## 📊 Activity
-
-| 🎯 Solved.ac 잔디                                             | 🌱 GitHub 잔디                                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="400"/></a> | <a href="https://github.com/najung-h"><img src="https://ghchart.rshah.org/219653/najung-h" width="400"/></a> |
 
 ---
 
