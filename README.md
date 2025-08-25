@@ -2,10 +2,10 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 # 👋 HellO
-![JUNGHYUN NA](https://ifh.cc/g/628gJR.png)
-
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321)](https://solved.ac/{junghyun_na321})
+<img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="100"/>
+<a href="https://solved.ac/junghyun_na321">
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" height="100"/>
+</a>
 
 ---
 
