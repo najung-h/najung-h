@@ -79,9 +79,9 @@
 
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" />
 
-![GitHub Snake Light](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.svg)
-![GitHub Snake Dark](https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake-dark.svg)
-<img src="https://github.com/najung-h/najung-h/blob/output/github-contribution-grid-snake.gif" width="600" />
+![GitHub Snake Light](https://github.com/najung-h/najung-h/github-contribution-grid-snake.svg)
+![GitHub Snake Dark](https://github.com/najung-h/najung-h/github-contribution-grid-snake-dark.svg)
+<img src="https://github.com/najung-h/najung-h/github-contribution-grid-snake.gif" width="600" />
 
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/metrics/metrics-6m.svg" width="420" />
 
