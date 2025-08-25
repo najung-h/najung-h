@@ -70,6 +70,39 @@
 ### 🌱 GitHub 잔디
 [<img src="https://ghchart.rshah.org/219653/najung-h" alt="GitHub contributions grass for najung-h" />](https://github.com/najung-h)
 
+
+
+
+
+## 📊 Activity
+
+<div style="display:flex; gap:10px;">
+  <a href="https://solved.ac/profile/junghyun_na321">
+    <img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="400"/>
+  </a>
+  <a href="https://github.com/najung-h">
+    <img src="https://ghchart.rshah.org/219653/najung-h" width="400"/>
+  </a>
+</div>
+
+
+
+
+
+## 📊 Activity
+
+| 🎯 Solved.ac 잔디                                             | 🌱 GitHub 잔디(최근 6개월)                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/metrics-6m.svg" width="420" /> |
+
+
+
+## 📊 Activity
+
+| 🎯 Solved.ac 잔디                                             | 🌱 GitHub 잔디                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="400"/></a> | <a href="https://github.com/najung-h"><img src="https://ghchart.rshah.org/219653/najung-h" width="400"/></a> |
+
 ---
 
 ## 📫 How to reach me

@@ -1,0 +1,24 @@
+name: Metrics (6 months contributions)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 매일 00:00 UTC에 갱신
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # 필수: 본인 GitHub 사용자명
+          user: najung-h
+          template: classic
+          filename: metrics-6m.svg
+          base: ""
+          config_timezone: Asia/Seoul
+
+          # 잔디(기여 캘린더) 플러그인
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year   # ← 정확히 '최근 6개월'만
