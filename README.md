@@ -26,23 +26,47 @@
 ## 🔧 Tech Stack
 
 ### 💻 Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)[![Solved.ac
-프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=junghyun_na321)](https://solved.ac/{handle})
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <a href="https://solved.ac/profile/junghyun_na321">
+    <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=junghyun_na321"/>
+  </a>
+</p>
 
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-
+### 🧪 Data & ML
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+</p>
 
 ### 🛠️ Frameworks & Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <a href="https://github.com/najung-h">
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  </a>
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+</p>
 
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 
-### 🧰 Others
-[![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)](https://github.com/najung-h)
-![Notion](https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
+
+### 🚀 AI & CLI Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/MCP-4A90E2?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini%20CLI-00C853?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+</p>
+
+
 
 ### 📜 자격증
+
 | 자격증명                                          | 발급 기관               | 취득 일자   |
 | --------------------------------------------- | ---------------------------- | ------- |
 | ADsP                                          | 한국데이터산업진흥원          | 2023.11 |
