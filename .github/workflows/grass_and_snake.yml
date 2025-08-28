@@ -1,56 +1,59 @@
-name: Profile 3d grass and snake
+name: Profile 3d grass and snake   # 워크플로 이름
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # (UTC) 6시간마다 실행
-  workflow_dispatch:         # 수동 실행도 가
+    - cron: "0 */6 * * *"          # (UTC) 6시간마다 실행
+  workflow_dispatch:                # 수동 실행
 
-# output 브랜치로 푸시하려면 repo 컨텐츠 쓰기 권한이 필요
 permissions:
-  contents: write
+  contents: write                   # output 브랜치 푸시 권한
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest          # 최신 Ubuntu 러너
 
     steps:
-
-      # 0) 최근 6시간 동안 master 브랜치에 커밋 있었는지 확인
-      - name: Check recent commits on master
-        run: |
-          # master 브랜치 최신 가져오기
-          git fetch origin master
-          # 최근 6시간 이내 커밋이 있는지 검사
-          if [ -z "$(git log origin/master --since='6 hours ago' --oneline)" ]; then
-            echo "No commits in master within last 6 hours. Exiting..."
-            exit 0
-          fi
-
-
-    
-      # 1) 저장소 체크아웃
-      - name: Checkout repo
+      # 0) 저장소 체크아웃 (반드시 먼저!)
+      - name: Checkout repo         # git 명령이 .git 디렉토리를 필요로 함
         uses: actions/checkout@v4
 
-      # 1-1) dist 폴더 미리 생성 (중요!)
+      # 1) 최근 6시간 내 master 커밋 유무 점검 (없으면 이후 스텝을 스킵하기 위해 출력값 설정)
+      - name: Check commits within last 6 hours on master
+        id: check
+        run: |
+          git fetch origin master --depth=1                      # 최신 커밋만 가볍게 가져오기
+          COUNT=$(git log origin/master --since='6 hours ago' --oneline | wc -l | tr -d ' ')
+          echo "commit_count=$COUNT" >> "$GITHUB_OUTPUT"         # 출력값 노출
+
+      # 1-1) 커밋 없으면 깔끔히 종료(성공). -> 실패 메일 안 감.
+      - name: No recent commits, skip the run
+        if: ${{ steps.check.outputs.commit_count == '0' }}
+        run: |
+          echo "No commits on master in the last 6 hours. Exiting successfully."
+          exit 0
+
+      # 2) dist 폴더 준비
       - name: Prepare dist folder
+        if: ${{ steps.check.outputs.commit_count != '0' }}       # 커밋 있을 때만 실행
         run: mkdir -p dist
 
-      # 2) 입체 잔디 생성
+      # 3) 입체 잔디 생성
       - name: Generate 3d grass
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: lowlighter/metrics@latest
         with:
           user: najung-h
-          token: ${{ secrets.METRICS_TOKEN }}  # PAT 필요
+          token: ${{ secrets.METRICS_TOKEN }}    # PAT 필요(레포/스코프 주의)
           template: classic
-          filename: dist/metrics-6m.svg   # dist 폴더에 저장
+          filename: dist/metrics-6m.svg
           base: ""
           config_timezone: Asia/Seoul
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-      # 3) 뱀 생성 
+      # 4) 뱀 생성
       - name: Generate snake
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: Platane/snk@v3
         id: snake-gif
         with:
@@ -60,17 +63,19 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      # 상태 확인
+      # 5) 상태 확인(옵션)
       - name: Git status
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         run: git status
 
-      # 생성물 확인(옵션)
+      # 6) 산출물 목록(옵션)
       - name: List dist
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         run: ls -alh dist || true
 
-
-      # 4) dist/ 를 output 브랜치로 배포
+      # 7) output 브랜치로 배포
       - name: Deploy profile assets to output branch
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
@@ -79,10 +84,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 5) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
+      # 8) master에도 동기화
       - name: Commit dist to default branch
+        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: sync dist assets to default branch"
-          branch: master   # 기본 브랜치가 main이면 main으로 변경
+          branch: master
           file_pattern: dist/**
