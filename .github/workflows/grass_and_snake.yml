@@ -2,60 +2,43 @@ name: Profile 3d grass and snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"      # 6시간마다 (UTC)
-  workflow_dispatch:
+    - cron: "0 */6 * * *"   # (UTC) 6시간마다 실행
+  workflow_dispatch:         # 수동 실행
 
+# output 브랜치로 푸시하려면 repo 컨텐츠 쓰기 권한이 필요
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      LOGIN: najung-h
 
     steps:
+      # 1) 저장소 체크아웃
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 1) 계정 전체 커밋(지난 6시간) 집계: REST Search
-      #    - private 포함하려면 METRICS_TOKEN = 개인 PAT (repo 권한 포함) 이어야 함
-      - name: Check account-wide commits in last 6 hours
-        id: acc_check
-        env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: |
-          FROM=$(date -u -d '6 hours ago' +%Y-%m-%dT%H:%M:%SZ)
-          Q="author:${LOGIN} committer-date:>=${FROM}"
-          echo "Search query: $Q"
-          COUNT=$(gh api -H "Accept: application/vnd.github+json" /search/commits -f q="$Q" --jq '.total_count')
-          echo "commit_count=$COUNT" | tee -a "$GITHUB_OUTPUT"
-
-      - name: No recent commits across account, skip the run
-        if: ${{ steps.acc_check.outputs.commit_count == '0' }}
-        run: |
-          echo "No commits in the last 6 hours across the account. Exit."
-          exit 0
-
+      # 1-1) dist 폴더 미리 생성 (중요!)
       - name: Prepare dist folder
         run: mkdir -p dist
 
+      # 2) 입체 잔디 생성
       - name: Generate 3d grass
         uses: lowlighter/metrics@latest
         with:
           user: najung-h
-          token: ${{ secrets.METRICS_TOKEN }}   # 개인 PAT (repo 권장)
+          token: ${{ secrets.METRICS_TOKEN }}  # PAT 필요
           template: classic
-          filename: dist/metrics-6m.svg
+          filename: dist/metrics-6m.svg   # dist 폴더에 저장
           base: ""
           config_timezone: Asia/Seoul
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          # 캐시 영향 최소화
-          use_cache: no
 
+      # 3) 뱀 생성 
       - name: Generate snake
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: najung-h
           outputs: |
@@ -63,20 +46,16 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      # ✅ 산출물이 동일해도 항상 diff 발생하도록 스탬프 추가
-      - name: Write stamp file (forces change)
-        run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > dist/.stamp.txt
-          echo "commit_count=${{ steps.acc_check.outputs.commit_count }}" >> dist/.stamp.txt
+      # 상태 확인
+      - name: Git status
+        run: git status
 
-      # 디버그: 변경 확인
-      - name: Show git diff summary
-        run: |
-          git status
-          git diff --stat || true
-          ls -alh dist
+      # 생성물 확인(옵션)
+      - name: List dist
+        run: ls -alh dist || true
 
-      # output 브랜치 배포
+
+      # 4) dist/ 를 output 브랜치로 배포
       - name: Deploy profile assets to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
@@ -86,11 +65,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 기본 브랜치에도 동기화
+      # 5) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
       - name: Commit dist to default branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: sync dist assets to default branch"
-          branch: master
-          file_pattern: |
-            dist/**
+          branch: master   # 기본 브랜치가 main이면 main으로 변경
+          file_pattern: dist/**
