@@ -1,82 +1,61 @@
-name: Profile 3d grass and snake   # 워크플로 이름
+name: Profile 3d grass and snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"          # (UTC) 6시간마다 실행
-  workflow_dispatch:                # 수동 실행
+    - cron: "0 */6 * * *"      # 6시간마다 (UTC)
+  workflow_dispatch:
 
 permissions:
-  contents: write                   # output 브랜치 푸시 권한
+  contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest          # 최신 Ubuntu 러너
+    runs-on: ubuntu-latest
+    env:
+      LOGIN: najung-h
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      #  계정 전체 커밋(지난 6시간) 확인: viewer 기반 (login 불필요)
+      # 1) 계정 전체 커밋(지난 6시간) 집계: REST Search
+      #    - private 포함하려면 METRICS_TOKEN = 개인 PAT (repo 권한 포함) 이어야 함
       - name: Check account-wide commits in last 6 hours
         id: acc_check
         env:
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}   # 개인 PAT 사용
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           FROM=$(date -u -d '6 hours ago' +%Y-%m-%dT%H:%M:%SZ)
-          TO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-
-          Q='
-          query($from:DateTime!, $to:DateTime!){
-            viewer {
-              contributionsCollection(from:$from, to:$to){
-                totalCommitContributions
-              }
-            }
-          }'
-
-          COUNT=$(gh api graphql \
-            -f from="$FROM" -f to="$TO" -f query="$Q" \
-            --jq '.data.viewer.contributionsCollection.totalCommitContributions')
-
+          Q="author:${LOGIN} committer-date:>=${FROM}"
+          echo "Search query: $Q"
+          COUNT=$(gh api -H "Accept: application/vnd.github+json" /search/commits -f q="$Q" --jq '.total_count')
           echo "commit_count=$COUNT" | tee -a "$GITHUB_OUTPUT"
 
       - name: No recent commits across account, skip the run
         if: ${{ steps.acc_check.outputs.commit_count == '0' }}
         run: |
-          echo "No commits across the account in the last 6 hours. Exiting successfully."
+          echo "No commits in the last 6 hours across the account. Exit."
           exit 0
 
-      # 1-1) 커밋 없으면 깔끔히 종료(성공). -> 실패 메일 안 감.
-      - name: No recent commits, skip the run
-        if: ${{ steps.check.outputs.commit_count == '0' }}
-        run: |
-          echo "No commits on master in the last 6 hours. Exiting successfully."
-          exit 0
-
-      # 2) dist 폴더 준비
       - name: Prepare dist folder
-        if: ${{ steps.check.outputs.commit_count != '0' }}       # 커밋 있을 때만 실행
         run: mkdir -p dist
 
-      # 3) 입체 잔디 생성
       - name: Generate 3d grass
-        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: lowlighter/metrics@latest
         with:
           user: najung-h
-          token: ${{ secrets.METRICS_TOKEN }}    # PAT 필요(레포/스코프 주의)
+          token: ${{ secrets.METRICS_TOKEN }}   # 개인 PAT (repo 권장)
           template: classic
           filename: dist/metrics-6m.svg
           base: ""
           config_timezone: Asia/Seoul
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          # 캐시 영향 최소화
+          use_cache: no
 
-      # 4) 뱀 생성
       - name: Generate snake
-        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: najung-h
           outputs: |
@@ -84,19 +63,21 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif
 
-      # 5) 상태 확인(옵션)
-      - name: Git status
-        if: ${{ steps.check.outputs.commit_count != '0' }}
-        run: git status
+      # ✅ 산출물이 동일해도 항상 diff 발생하도록 스탬프 추가
+      - name: Write stamp file (forces change)
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > dist/.stamp.txt
+          echo "commit_count=${{ steps.acc_check.outputs.commit_count }}" >> dist/.stamp.txt
 
-      # 6) 산출물 목록(옵션)
-      - name: List dist
-        if: ${{ steps.check.outputs.commit_count != '0' }}
-        run: ls -alh dist || true
+      # 디버그: 변경 확인
+      - name: Show git diff summary
+        run: |
+          git status
+          git diff --stat || true
+          ls -alh dist
 
-      # 7) output 브랜치로 배포
+      # output 브랜치 배포
       - name: Deploy profile assets to output branch
-        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
@@ -105,11 +86,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 8) master에도 동기화
+      # 기본 브랜치에도 동기화
       - name: Commit dist to default branch
-        if: ${{ steps.check.outputs.commit_count != '0' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: sync dist assets to default branch"
           branch: master
-          file_pattern: dist/**
+          file_pattern: |
+            dist/**
