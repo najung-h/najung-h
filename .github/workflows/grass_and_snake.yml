@@ -17,13 +17,28 @@ jobs:
       - name: Checkout repo         # git 명령이 .git 디렉토리를 필요로 함
         uses: actions/checkout@v4
 
-      # 1) 최근 6시간 내 master 커밋 유무 점검 (없으면 이후 스텝을 스킵하기 위해 출력값 설정)
-      - name: Check commits within last 6 hours on master
-        id: check
+      # 계정 전체 커밋 수(지난 6시간) 확인 (GraphQL)
+      - name: Check account-wide commits in last 6 hours
+        id: acc_check
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}   # PAT 권장 (repo scope)
         run: |
-          git fetch origin master --depth=1                      # 최신 커밋만 가볍게 가져오기
-          COUNT=$(git log origin/master --since='6 hours ago' --oneline | wc -l | tr -d ' ')
-          echo "commit_count=$COUNT" >> "$GITHUB_OUTPUT"         # 출력값 노출
+          FROM=$(date -u -d '6 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          TO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          Q='
+          query($login:String!, $from:DateTime!, $to:DateTime!){
+            user(login:$login){
+              contributionsCollection(from:$from, to:$to){
+                totalCommitContributions
+              }
+            }
+          }'
+
+          COUNT=$(gh api graphql -f login="$GH_LOGIN" -f from="$FROM" -f to="$TO" -f query="$Q" \
+            --jq '.data.user.contributionsCollection.totalCommitContributions')
+
+          echo "commit_count=$COUNT" | tee -a "$GITHUB_OUTPUT"
 
       # 1-1) 커밋 없으면 깔끔히 종료(성공). -> 실패 메일 안 감.
       - name: No recent commits, skip the run
