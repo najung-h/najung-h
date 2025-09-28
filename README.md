@@ -11,7 +11,7 @@
     </td>
     <td>
       <a href="https://solved.ac/profile/junghyun_na321">
-        <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120">
+        <!-- <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120"> -->
       </a>
     </td>
   </tr>
@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
   <a href="https://solved.ac/profile/junghyun_na321">
-    <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=junghyun_na321"/>
+    <!-- <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=junghyun_na321"/> -->
   </a>
 </p>
 
