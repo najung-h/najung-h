@@ -2,7 +2,7 @@ name: Profile 3d grass and snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # (UTC) 6시간마다 실행
+    - cron: '0 0 * * *'  # 매일 한국 오전 9시 == 매일 00:00 UTC
   workflow_dispatch:         # 수동 실행
 
 # output 브랜치로 푸시하려면 repo 컨텐츠 쓰기 권한이 필요
