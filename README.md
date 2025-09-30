@@ -3,19 +3,19 @@
 
 
 
-
-<table>
+<img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="120">
+<!-- <table>
   <tr>
     <td>
       <img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="120">
     </td>
     <td>
       <a href="https://solved.ac/profile/junghyun_na321">
-        <!-- <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120"> -->
+        <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120">
       </a>
     </td>
   </tr>
-</table>
+</table> -->
 
 ---
 
