@@ -3,7 +3,8 @@
 
 
 
-<img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="120">
+![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
+
 <!-- <table>
   <tr>
     <td>
@@ -15,13 +16,11 @@
       </a>
     </td>
   </tr>
-</table> -->
+</table> --> 
 
 ---
 
-## 
 
----
 
 ## 🔧 Tech Stack
 
@@ -97,6 +96,8 @@
 </p>
 
 
+
+
 ### 📜 자격증 및 수상
 
 | 자격증명 / 수상명             | 발급 기관 / 주관               | 취득/진행 상태             |
@@ -110,6 +111,8 @@
 
 
 
+
+
 ### 📚 Education
 
 | 단체명     | 내용                                     | 재학 기간         |
@@ -117,6 +120,8 @@
 | 고려대학교 | 가정교육과 · 수학과 (이중전공)           | 2020.03 ~ 2025.08 |
 | BADA       | 고려대학교 경영데이터학회 (Business Analytics) | 2023.03 - 2023.12 |
 | SSAFY      | 파이썬반                                 | 2025.06- 현재     |
+
+
 
 
 
@@ -162,6 +167,8 @@
 [![Blog](https://img.shields.io/badge/-Tech%20Blog-000000?logo=github&logoColor=white)](https://hadahae2024.tistory.com/)
 
 <!-- README 끝 -->
+
+
 
 <!--
 **najung-h/najung-h** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
