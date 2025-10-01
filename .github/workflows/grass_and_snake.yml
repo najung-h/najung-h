@@ -17,6 +17,8 @@ jobs:
       # 1) 저장소 체크아웃
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 리베이스 하기 위해 전체 히스토리 필요
 
       # 1-1) dist 폴더 미리 생성 (중요!)
       - name: Prepare dist folder
@@ -65,7 +67,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 5) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
+      # 5) master 리베이스
+      - name: Rebase onto origin/master
+        run: |
+          git fetch origin master
+          git checkout master
+          git rebase origin/master
+
+
+      # 6) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
       - name: Commit dist to default branch
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
