@@ -78,10 +78,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
-      # 5) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
-      - name: Commit dist to default branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: sync dist assets to default branch"
-          branch: master   # 기본 브랜치가 main이면 main으로 변경
-          file_pattern: dist/**
+      # # 5) 동일 산출물을 기본 브랜치(master)의 dist/에도 커밋 (README가 master를 가리켜도 OK)
+      # - name: Commit dist to default branch
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: "chore: sync dist assets to default branch"
+      #     branch: master   # 기본 브랜치가 main이면 main으로 변경
+      #     file_pattern: dist/**
