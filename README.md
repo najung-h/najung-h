@@ -140,8 +140,8 @@
 
 | 단체명     | 내용                                     | 재학 기간         |
 | ---------- | ---------------------------------------- | ----------------- |
-| 고려대학교 | 가정교육과 · 수학과 (이중전공)           | 2020.03 ~ 2025.08 |
-| BADA       | 고려대학교 경영데이터학회 (Business Analytics) | 2023.03 - 2023.12 |
+| ㅇㅇ대학교 | 가정교육과 · 수학과 (이중전공)           | 2020.03 ~ 2025.08 |
+| BADA       | ㅇㅇ대학교 경영데이터학회 (Business Analytics) | 2023.03 - 2023.12 |
 | SSAFY      | 파이썬반                                 | 2025.06- 현재     |
 
 
@@ -187,7 +187,7 @@
 
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white)](mailto:junghyun.na321@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/)
-[![Blog](https://img.shields.io/badge/-Tech%20Blog-000000?logo=github&logoColor=white)](https://hadahae2024.tistory.com/)
+[![Tistory](https://img.shields.io/badge/-Tech%20Blog-000000?logo=github&logoColor=white)](https://hadahae2024.tistory.com/)
 
 <!-- README 끝 -->
 
