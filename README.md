@@ -29,6 +29,21 @@
 
 ---
 
+## BLOG
+<p align="center">
+  <a href="https://hadahae2024.tistory.com">
+    <img src="https://img.shields.io/badge/Tistory-Blog-orange?style=for-the-badge&logo=tistory&logoColor=white"/>
+  </a>
+  <a href="https://najungh.site">
+    <img src="https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://hadahae2025.tistory.com">
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
+  </a>
+</p>
 
 
 ## 🔧 Tech Stack
