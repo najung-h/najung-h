@@ -2,6 +2,16 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 
+## BLOG
+
+
+<p align="center">
+  <a href="https://hadahae2024.tistory.com">
+    <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
+  </a>
+</p>
+
+
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line">
   <img
     src="https://render.gitanimals.org/lines/najung-h"
@@ -10,7 +20,14 @@
   />
 </a>
 
-
+<p align="center">
+  <a href="https://hadahae2024.tistory.com">
+    <img src="https://img.shields.io/badge/Tistory-Blog-orange?style=for-the-badge&logo=tistory&logoColor=white"/>
+  </a>
+  <a href="https://najungh.site">
+    <img src="https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
+  </a>
+</p>
 
 ![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
 
@@ -29,21 +46,6 @@
 
 ---
 
-## BLOG
-<p align="center">
-  <a href="https://hadahae2024.tistory.com">
-    <img src="https://img.shields.io/badge/Tistory-Blog-orange?style=for-the-badge&logo=tistory&logoColor=white"/>
-  </a>
-  <a href="https://najungh.site">
-    <img src="https://img.shields.io/badge/Portfolio-Website-blue?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://hadahae2024.tistory.com">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
-  </a>
-</p>
 
 
 ## 🔧 Tech Stack
