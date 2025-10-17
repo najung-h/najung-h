@@ -40,7 +40,7 @@
 </p>
 
 <p align="center">
-  <a href="https://hadahae2025.tistory.com">
+  <a href="https://hadahae2024.tistory.com">
     <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
   </a>
 </p>
