@@ -2,9 +2,6 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 
-## BLOG
-
-
 
 
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line">
