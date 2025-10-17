@@ -1,6 +1,12 @@
 <!-- 깃허브 방문자 수 -->
 
+<div align="center">
 
+  <!-- ① Profile Views -->
+  <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
+  <br><br>
+
+</div>
 
 
 
@@ -14,11 +20,6 @@
 
 
 <div align="center">
-
-  <!-- ① Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
-  <br><br>
-
   <!-- ② Tistory & Portfolio -->
   <a href="https://hadahae2024.tistory.com">
     <img src="https://img.shields.io/badge/Tistory-Blog-ff7f7f?style=for-the-badge&logo=tistory&logoColor=white"/>
