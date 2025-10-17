@@ -6,6 +6,16 @@
 
 
 
+
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line">
+  <img
+    src="https://render.gitanimals.org/lines/najung-h"
+    width="1000"
+    height="120"
+  />
+</a>
+
+
 <p align="center">
   <a href="https://hadahae2024.tistory.com">
     <img src="https://img.shields.io/badge/Tistory-Blog-orange?style=for-the-badge&logo=tistory&logoColor=white"/>
@@ -15,13 +25,6 @@
   </a>
 </p>
 
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line">
-  <img
-    src="https://render.gitanimals.org/lines/najung-h"
-    width="1000"
-    height="120"
-  />
-</a>
 
 <p align="center">
   <a href="https://hadahae2024.tistory.com">
