@@ -2,7 +2,9 @@
 ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
 
 
-
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/lines/{username}?pet-id=1" width="1000" height="120"/>
+</a>
 ![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
 
 <!-- <table>
