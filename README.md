@@ -3,7 +3,11 @@
 
 
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/lines/najungh?pet-id=1" width="1000" height="120"/>
+  <img src="https://render.gitanimals.org/lines/{najungh}?pet-id=1" width="1000" height="120"/>
+</a>
+
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/{najungh}"/>
 </a>
 
 ![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
