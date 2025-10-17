@@ -10,13 +10,7 @@
   />
 </a>
 
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=farm">
-<img
-  src="https://render.gitanimals.org/farms/najung-h"
-  width="600"
-  height="300"
-/>
-</a>
+
 
 ![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
 
@@ -184,6 +178,15 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="420"> |
 
+
+## Commits
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/najung-h"
+  width="600"
+  height="300"
+/>
+</a>
 
 
 ## 🐍 Snake & 🌱 3D Grass
