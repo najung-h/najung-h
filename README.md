@@ -6,6 +6,14 @@
   <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
   <br><br>
 
+  <!-- ② Tistory & Portfolio -->
+  <a href="https://hadahae2024.tistory.com">
+    <img src="https://img.shields.io/badge/Tistory-Blog-ff7f7f?style=for-the-badge&logo=tistory&logoColor=white"/>
+  </a>
+  <a href="https://najungh.site">
+    <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
+  </a>
+
 </div>
 
 
@@ -17,19 +25,6 @@
     height="120"
   />
 </a>
-
-
-<div align="center">
-  <!-- ② Tistory & Portfolio -->
-  <a href="https://hadahae2024.tistory.com">
-    <img src="https://img.shields.io/badge/Tistory-Blog-ff7f7f?style=for-the-badge&logo=tistory&logoColor=white"/>
-  </a>
-  <a href="https://najungh.site">
-    <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
-  </a>
-
-</div>
-
 
 
 <p align="center">
