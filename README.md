@@ -1,5 +1,5 @@
 <!-- 깃허브 방문자 수 -->
-![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
+
 
 
 
@@ -14,6 +14,7 @@
 
 
 <p align="center">
+  ![visitors](https://komarev.com/ghpvc/?username=najung-h&color=blue)
   <a href="https://hadahae2024.tistory.com">
     <img src="https://img.shields.io/badge/Tistory-Blog-orange?style=for-the-badge&logo=tistory&logoColor=white"/>
   </a>
