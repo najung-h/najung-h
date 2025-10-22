@@ -33,7 +33,7 @@
   </a>
 </p>
 
-![나정현 타이포그래피](images/logo-design-of-the-text-junghyun-na-in-a_CqalgCebTBuEiII5Jv4LSQ_nvruCA_-QMGR6G2WJwhQNA.jpeg)
+![나정현 타이포그래피](images/image-Photoroom.png)
 
 <!-- <table>
   <tr>
