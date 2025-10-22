@@ -1,3 +1,4 @@
+
 <div align="center" style="
   display: inline-block;
   padding: 10px 14px;
@@ -49,7 +50,32 @@
   color: #ffffff;
 ">
 
-![나정현 타이포그래피](images/image-Photoroom.png)
+<div align="center" style="
+  width:80%;
+  height:4px;
+  margin:16px auto;
+  background:linear-gradient(90deg, #ff8c00, #ff69b4, #ffa6c9);
+  border-radius: 4px;
+  animation: slide 4s linear infinite;
+"></div>
+
+<style>
+@keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: 200% 0; }
+}
+</style>
+
+<div align="center" style="
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 0 12px 36px rgba(255,182,193,0.25);
+  margin-top: 16px;
+  width: fit-content;
+">
+  <img src="images/image-Photoroom.png" alt="나정현 타이포그래피" style="width:74%; max-width:800px; border-radius: 16px;">
+</div>
 
 
 <p align="center">
@@ -57,6 +83,99 @@
     <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
   </a>
 </p>
+<div align="center" style="
+  margin-top:28px;
+  padding:20px;
+  border-radius:16px;
+  background:linear-gradient(135deg, rgba(255,182,193,0.12), rgba(255,140,0,0.1));
+  font-style:italic;
+  color:#fff;
+  font-size:15px;
+  width:85%;
+">
+   “나정현” — <b>Junghyun Na</b>
+</div>
+
+<div align="center" style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 22px 24px;
+  box-shadow: 0 12px 36px rgba(255,182,193,0.25);
+  margin-top: 18px;
+">
+<div align="center" style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 24px 28px;
+  box-shadow: 0 12px 36px rgba(255,182,193,0.25);
+  margin-top: 20px;
+">
+
+
+
+
+<div align="center" style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 26px 32px;
+  box-shadow: 0 12px 36px rgba(255,182,193,0.25);
+  margin-top: 20px;
+  backdrop-filter: blur(8px);
+  width: fit-content;
+">
+  <!-- 🖼️ 왼쪽: 이미지 -->
+  <img src="images/image-Photoroom.png" 
+       alt="나정현 타이포그래피" 
+       style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
+
+  <!-- 💬 오른쪽: 텍스트 소개 -->
+  <div style="
+    color: #ffffff;
+    text-align: left;
+    max-width: 380px;
+    font-family: 'Pretendard', 'Inter', sans-serif;
+  ">
+    <h2 style="color:#ffb6c1; margin-bottom: 12px; letter-spacing: 1px;">
+      Hi, I'm <b>Junghyun Na 👋</b>
+    </h2>
+    <p style="line-height: 1.7; font-size: 15.5px; color: rgba(255,255,255,0.9);">
+      DevOps Engineer & AI Learner.<br>
+      Passionate about connecting <b>data, design, and deployment</b>.<br>
+      I love crafting clean architectures and elegant automation.<br><br>
+      🌸 <i>"코드는 나의 언어이자 디자인이다."</i>
+    </p>
+    <div style="margin-top:16px;">
+      <a href="https://hadahae2024.tistory.com" target="_blank" style="
+        text-decoration: none;
+        background: linear-gradient(90deg, #ff8c00, #ff69b4);
+        color: white;
+        padding: 8px 14px;
+        border-radius: 12px;
+        font-size: 14px;
+        box-shadow: 0 4px 12px rgba(255,182,193,0.25);
+        transition: all 0.2s ease-in-out;
+      " onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+        Visit My Blog →
+      </a>
+    </div>
+  </div>
+</div>
+
 ---
 
 
