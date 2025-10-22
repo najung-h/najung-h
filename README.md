@@ -1,30 +1,55 @@
-<!-- 깃허브 방문자 수 -->
-
-<div align="center">
-
-  <!-- ① Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
-  <br><br>
-
-  <!-- ② Tistory & Portfolio -->
-  <a href="https://hadahae2024.tistory.com">
-    <img src="https://img.shields.io/badge/Tistory-Blog-ff7f7f?style=for-the-badge&logo=tistory&logoColor=white"/>
+<div align="center" style="
+  display: inline-block;
+  padding: 10px 14px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 12px;
+  margin-bottom: 8px;
+">
+  <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line" aria-label="Go to Gitanimals">
+    <img
+      src="https://render.gitanimals.org/lines/najung-h"
+      width="980"
+      height="110"
+      alt="Gitanimals contribution line"
+      style="display:block; margin:auto; border-radius: 10px;"
+    />
   </a>
-  <a href="https://najungh.site">
-    <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=for-the-badge&logo=aboutdotme&logoColor=white"/>
-  </a>
-
 </div>
 
+<div align="center" style="margin-top: 6px; margin-bottom: 12px;">
+  <a href="https://github.com/najung-h" aria-label="GitHub Profile">
+    <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
+  </a>
+  &nbsp;
+  <a href="https://hadahae2024.tistory.com" aria-label="Tistory Blog">
+    <img src="https://img.shields.io/badge/Tistory-Blog-ff7f7f?style=flat-square&logo=tistory&logoColor=white" alt="Tistory Badge"/>
+  </a>
+  &nbsp;
+  <a href="https://najungh.site" aria-label="Portfolio Site">
+    <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=flat-square&logo=aboutdotme&logoColor=white" alt="Portfolio Badge"/>
+  </a>
+  &nbsp;
+  <a href="mailto:junghyun.na321@gmail.com" aria-label="Send Email">
+    <img src="https://img.shields.io/badge/junghyun.na321@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email Address"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/" aria-label="LinkedIn Profile">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</div>
 
+<div align="center" style="
+  background: linear-gradient(135deg, #ff8c00 0%, #ff69b4 100%);
+  border-radius: 18px;
+  padding: 26px 24px 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  color: #ffffff;
+">
 
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line">
-  <img
-    src="https://render.gitanimals.org/lines/najung-h"
-    width="1000"
-    height="120"
-  />
-</a>
+![나정현 타이포그래피](images/image-Photoroom.png)
 
 
 <p align="center">
@@ -32,29 +57,13 @@
     <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
   </a>
 </p>
-
-![나정현 타이포그래피](images/image-Photoroom.png)
-
-<!-- <table>
-  <tr>
-    <td>
-      <img src="https://ifh.cc/g/628gJR.png" alt="JUNGHYUN NA" height="120">
-    </td>
-    <td>
-      <a href="https://solved.ac/profile/junghyun_na321">
-        <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=junghyun_na321" alt="Solved.ac 프로필" height="120">
-      </a>
-    </td>
-  </tr>
-</table> --> 
-
 ---
 
 
 
 ## 🔧 Tech Stack
 
-
+  <br>
 
 ### 💻 Languages
 
@@ -65,7 +74,7 @@
     <!-- <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=junghyun_na321"/> -->
   </a>
 </p>
-
+  <br>
 
 ### 🎨 Frontend & Frameworks
 
@@ -75,7 +84,7 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 </p>
-
+  <br>
 
 
 ### 🧱 Backend & Frameworks
@@ -86,7 +95,7 @@
 </p>
 <p align="center">   <img src="https://img.shields.io/badge/ASGI-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>   <img src="https://img.shields.io/badge/Uvicorn-2E86C1?style=for-the-badge&logo=uvicorn&logoColor=white"/>   <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white"/> </p>
 
-
+  <br>
 
 ### 🧪 Data & ML
 
@@ -98,7 +107,7 @@
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
 </p>
-
+  <br>
 
 ### 🗄️ Databases 
 
@@ -107,7 +116,7 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
 </p>
-
+  <br>
 
 
 ### ⚙️ DevOps & CI/CD
@@ -136,7 +145,7 @@
 
 
 
-
+  <br>
 
 ### 🛠️ Tools & Design
 
@@ -147,7 +156,7 @@
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
-
+  <br>
 
 
 ### 🚀 Etc.
@@ -159,7 +168,7 @@
 </p>
 
 
-
+  <br>  <br>
 
 
 ### 📜 자격증 및 수상
@@ -174,7 +183,7 @@
 
 
 
-
+  <br>  <br>
 
 
 ### 📚 Education
@@ -187,7 +196,7 @@
 
 
 
-
+  <br>  <br>
 
 ### 💼 경력
 
@@ -196,7 +205,7 @@
 | IBK 기업은행                                   | 디지털          | 경제연구소 중기산업연구실 | 2024.01-2024.02 |
 
 
-### 🚀 Service
+###   <br>  <br>  🚀 Service
 | 서비스명 | 설명 | 링크 |
 |:--|:--|:--:|
 | 🚇 **쉽길** | 지하철 에스컬레이터 경로 안내 서비스 | [wisheasy.site](https://wisheasy.site) |
@@ -205,7 +214,7 @@
 
 ---
 
-
+  <br>  <br>
 
 ## 📊 Activity
 
@@ -239,11 +248,7 @@
 
 ---
 
-## 📫 How to reach me
 
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white)](mailto:junghyun.na321@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/)
-[![Tistory](https://img.shields.io/badge/-Tech%20Blog-000000?logo=github&logoColor=white)](https://hadahae2024.tistory.com/)
 
 <!-- README 끝 -->
 
