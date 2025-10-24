@@ -33,6 +33,7 @@
     <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=flat-square&logo=aboutdotme&logoColor=white" alt="Portfolio Badge"/>
   </a>
   &nbsp;
+<div>
   <a href="mailto:junghyun.na321@gmail.com" aria-label="Send Email">
     <img src="https://img.shields.io/badge/junghyun.na321@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email Address"/>
   </a>
@@ -40,6 +41,7 @@
   <a href="https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/" aria-label="LinkedIn Profile">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+</div>
 </div>
 
 
