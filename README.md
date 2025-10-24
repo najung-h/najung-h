@@ -220,7 +220,7 @@
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
   <br>
-
+<br>
 
 ### 🚀 Etc.
 
@@ -272,6 +272,7 @@
 | 서비스명 | 설명 | 링크 |
 |:--|:--|:--:|
 | 🚇 **쉽길** | 지하철 에스컬레이터 경로 안내 서비스 | [wisheasy.site](https://wisheasy.site) |
+| 🚇 **뛸까말까** | 지하철 실시간 도착 정보 안내 서비스 | [runornot.site](runornot.site) |
 | 🧑‍💻 **나정현** | 소통 페이지 | [najungh.site](https://najungh.site) |
 
   <br>  <br>
@@ -281,14 +282,8 @@
 
 
 
-## 📊 Activity
-
-| 🎯 Solved.ac 잔디                                             | 🌱 GitHub 잔디                                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <a href="https://solved.ac/profile/junghyun_na321"><img src="http://mazandi.herokuapp.com/api?handle=junghyun_na321&theme=warm" width="420" /></a> | <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="420"> |
-
-
 ## Commits
+
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/najung-h"
@@ -301,7 +296,7 @@
 ## 🐍 Snake & 🌱 3D Grass
 
 <!-- 3D 잔디 -->
-<img src="https://raw.githubusercontent.com/najung-h/najung-h/output/metrics-6m.svg" width="1000">
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
 
 <!-- Snake 애니메이션 -->
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/output/github-contribution-grid-snake.svg" width="1000" />
