@@ -153,7 +153,11 @@
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 </p>
-<p align="center">   <img src="https://img.shields.io/badge/ASGI-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>   <img src="https://img.shields.io/badge/Uvicorn-2E86C1?style=for-the-badge&logo=uvicorn&logoColor=white"/>   <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white"/> </p>
+<p align="center">   
+  <img src="https://img.shields.io/badge/ASGI-000000?style=for-the-badge&logo=fastapi&logoColor=white"/>   
+  <img src="https://img.shields.io/badge/Uvicorn-2E86C1?style=for-the-badge&logo=uvicorn&logoColor=white"/>   
+  <img src="https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white"/> 
+</p>
 
   <br>
 
