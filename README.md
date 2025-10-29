@@ -93,9 +93,12 @@
   width: fit-content;
 ">
 
+  <a href="https://najungh.site" target="_blank" rel="noopener noreferrer">
   <img src="images/image-Photoroom.png" 
        alt="나정현 타이포그래피" 
        style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
+  </a>
+
 
 
   <div style="
