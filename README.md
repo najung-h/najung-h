@@ -293,7 +293,7 @@
 |:--|:--|:--:|
 | 🚇 **쉽길** | 지하철 에스컬레이터 경로 안내 서비스 | [wisheasy.site](https://wisheasy.site) |
 | 🚇 **뛸까말까** | 지하철 실시간 도착 정보 안내 서비스 | [runornot.site](runornot.site) |
-| 🧑‍💻 **나정현** | 소통 페이지 | [najungh.site](https://najungh.site) |
+| 🧑‍💻 **나정현** | 개인 포트폴리오 페이지 | [najungh.site](https://najungh.site) |
 
   <br>  <br>
 
