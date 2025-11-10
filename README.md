@@ -50,10 +50,12 @@
     <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
   </a>
 </p>
+
+<div align="center">
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="./assets/wisheasy.png" width="300" alt="Wisheasy"/><br><br>
+      <img src="./assests/wisheasy.png" width="300" alt="Wisheasy"/><br><br>
       <b>쉽길 (Wisheasy)</b><br>
       <sub>팀 프로젝트</sub><br><br>
       지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br>
@@ -63,7 +65,7 @@
       <a href="https://github.com/najung-h/project-wisheasy">💻 GitHub</a>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/runornot.png" width="300" alt="RunOrNot"/><br><br>
+      <img src="./assests/runornot.png" width="300" alt="RunOrNot"/><br><br>
       <b>뛸까말까 (RunOrNot)</b><br>
       <sub>개인 프로젝트</sub><br><br>
       실시간 지하철 도착정보 API 연동,<br>
@@ -75,7 +77,7 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./assets/portfolio.png" width="300" alt="Portfolio"/><br><br>
+      <img src="./assests/portfolio.png" width="300" alt="Portfolio"/><br><br>
       <b>게임형 포트폴리오</b><br>
       <sub>개인 포트폴리오</sub><br><br>
       React + Tailwind 기반으로 제작된<br>
@@ -85,7 +87,7 @@
       <a href="#">💻 GitHub</a>
     </td>
     <td align="center" width="50%">
-      <img src="./assets/cv.png" width="300" alt="CV (najungh)"/><br><br>
+      <img src="./assests/cv.png" width="300" alt="CV (najungh)"/><br><br>
       <b>CV (najungh)</b><br>
       <sub>개인 이력서</sub><br><br>
       AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br>
