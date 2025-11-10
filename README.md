@@ -79,6 +79,7 @@
 <br>  <br>
 
 
+
 <div align="center" style="
   display: flex;
   flex-wrap: wrap;
@@ -87,7 +88,9 @@
   padding: 12px 0;
 ">
 
+
   <!-- 카드 1 -->
+
   <div style="
     width: 420px;
     background: linear-gradient(180deg, #fff9e9, #fffefb);
@@ -98,12 +101,8 @@
     text-align: center;
     transition: all 0.3s ease;
   ">
-    <a href="https://www.wisheasy.site/" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/wisheasy.png" alt="Wisheasy"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)';"
-        onmouseout="this.style.transform='scale(1)';"/>
-    </a>
+    <img src="./assets/wisheasy.png" alt="Wisheasy"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0;"/>
     <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">쉽길 (Wisheasy)</h3>
     <p style="font-size: 13px; color: #a07500; margin: 0;">팀 프로젝트</p>
     <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
@@ -116,9 +115,10 @@
       <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
-  
+
+
   <!-- 카드 2 -->
+
   <div style="
     width: 420px;
     background: linear-gradient(180deg, #f4edff, #ffffff);
@@ -128,12 +128,8 @@
     padding: 18px;
     text-align: center;
   ">
-    <a href="https://runornot.site" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/runornot.png" alt="RunOrNot"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)';"
-        onmouseout="this.style.transform='scale(1)';"/>
-    </a>
+    <img src="./assets/runornot.png" alt="RunOrNot"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff;"/>
     <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b2f5f;">뛸까말까 (RunOrNot)</h3>
     <p style="font-size: 13px; color: #6b46c1; margin: 0;">개인 프로젝트</p>
     <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
@@ -146,9 +142,10 @@
       <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
-  
+
+
   <!-- 카드 3 -->
+
   <div style="
     width: 420px;
     background: linear-gradient(180deg, #f0fff7, #ffffff);
@@ -158,12 +155,8 @@
     padding: 18px;
     text-align: center;
   ">
-    <a href="https://na-journey.netlify.app/" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/portfolio.png" alt="Game Portfolio"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)';"
-        onmouseout="this.style.transform='scale(1)';"/>
-    </a>
+    <img src="./assets/portfolio.png" alt="Game Portfolio"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8;"/>
     <h3 style="margin: 10px 0 4px; font-size: 18px; color: #064e3b;">게임형 포트폴리오</h3>
     <p style="font-size: 13px; color: #0f766e; margin: 0;">개인 포트폴리오</p>
     <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
@@ -176,9 +169,10 @@
       <a href="#" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
-  
+
+
   <!-- 카드 4 -->
+
   <div style="
     width: 420px;
     background: linear-gradient(180deg, #eef6ff, #ffffff);
@@ -188,12 +182,8 @@
     padding: 18px;
     text-align: center;
   ">
-    <a href="https://www.najungh.site/" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/cv.png" alt="CV (najungh)"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)';"
-        onmouseout="this.style.transform='scale(1)';"/>
-    </a>
+    <img src="./assets/cv.png" alt="CV (najungh)"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff;"/>
     <h3 style="margin: 10px 0 4px; font-size: 18px; color: #1e3a8a;">CV (najungh)</h3>
     <p style="font-size: 13px; color: #1d4ed8; margin: 0;">개인 이력서</p>
     <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
@@ -206,6 +196,9 @@
       <a href="https://github.com/najung-h/project-portfolio" target="_blank" style="text-decoration:none; color:#1d4ed8; font-size:13px; border:1px solid #9bbcff; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
+
+</div>
+
 
 
 </div>
