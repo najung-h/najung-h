@@ -100,7 +100,7 @@
   ">
     <a href="https://www.wisheasy.site/" target="_blank" rel="noopener noreferrer">
       <img src="./assets/wisheasy.png" alt="Wisheasy"
-        style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0; transition: transform 0.25s ease;"
+        style="width: 320px; height: 320px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0; transition: transform 0.25s ease;"
         onmouseover="this.style.transform='scale(1.03)';"
         onmouseout="this.style.transform='scale(1)';"/>
     </a>
@@ -130,7 +130,7 @@
   ">
     <a href="https://runornot.site" target="_blank" rel="noopener noreferrer">
       <img src="./assets/runornot.png" alt="RunOrNot"
-        style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff; transition: transform 0.25s ease;"
+        style="width: 320px; height: 320px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff; transition: transform 0.25s ease;"
         onmouseover="this.style.transform='scale(1.03)';"
         onmouseout="this.style.transform='scale(1)';"/>
     </a>
@@ -160,7 +160,7 @@
   ">
     <a href="https://na-journey.netlify.app/" target="_blank" rel="noopener noreferrer">
       <img src="./assets/portfolio.png" alt="Game Portfolio"
-        style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8; transition: transform 0.25s ease;"
+        style="width: 320px; height: 320px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8; transition: transform 0.25s ease;"
         onmouseover="this.style.transform='scale(1.03)';"
         onmouseout="this.style.transform='scale(1)';"/>
     </a>
@@ -190,7 +190,7 @@
   ">
     <a href="https://www.najungh.site/" target="_blank" rel="noopener noreferrer">
       <img src="./assets/cv.png" alt="CV (najungh)"
-        style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff; transition: transform 0.25s ease;"
+        style="width: 320px; height: 320px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff; transition: transform 0.25s ease;"
         onmouseover="this.style.transform='scale(1.03)';"
         onmouseout="this.style.transform='scale(1)';"/>
     </a>
