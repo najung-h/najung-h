@@ -51,7 +51,6 @@
   </a>
 </p>
 
-## 🔐 Treasure Vault – Projects
 
 <div align="center" style="
   display: flex;
