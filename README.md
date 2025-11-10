@@ -51,52 +51,118 @@
   </a>
 </p>
 
-<div align="center">
-<table style="border-collapse:separate; border-spacing:16px; width:100%; max-width:980px;">
-  <tr>
-    <td align="center" width="50%">
-      <img src="./assests/wisheasy.png" width="300" alt="Wisheasy"/><br><br>
-      <b>쉽길 (Wisheasy)</b><br>
-      <sub>팀 프로젝트</sub><br><br>
-      지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br>
-      출발·도착역을 입력하면 <br>역사 구조와 에스컬레이터 위치 데이터를 기반으로<br>
-      <b>최적 이동 동선</b>을 스토리 카드 형식으로 안내.<br><br>
-      <a href="https://www.wisheasy.site/">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-wisheasy">💻 GitHub</a>
-    </td>
-    <td align="center" width="50%">
-      <img src="./assests/runornot.png" width="300" alt="RunOrNot"/><br><br>
-      <b>뛸까말까 (RunOrNot)</b><br>
-      <sub>개인 프로젝트</sub><br><br>
-      실시간 지하철 도착정보 API 연동,<br>
-      <b>뛸지/말지를 배지로 직관적으로 안내</b>.<br>
-      사용자 맞춤형 UX 중심의 웹 서비스.<br><br>
-      <a href="https://runornot.site">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-wishfast">💻 GitHub</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="./assests/portfolio.png" width="300" alt="Portfolio"/><br><br>
-      <b>게임형 포트폴리오</b><br>
-      <sub>개인 포트폴리오</sub><br><br>
-      React + Tailwind 기반으로 제작된<br>
-      <b>애니메이션 인터랙션형 포트폴리오</b>.<br>
-      카드형 타임라인 및 효과 중심 UI 적용.<br><br>
-      <a href="https://na-journey.netlify.app/">🌐 사이트</a> |
-      <a href="#">💻 GitHub</a>
-    </td>
-    <td align="center" width="50%">
-      <img src="./assests/cv.png" width="300" alt="CV (najungh)"/><br><br>
-      <b>CV (najungh)</b><br>
-      <sub>개인 이력서</sub><br><br>
-      AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br>
-      개인 정적 웹사이트 (index.html).<br><br>
-      <a href="https://www.najungh.site/">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-portfolio">💻 GitHub</a>
-    </td>
-  </tr>
-</table>
+## 🔐 Treasure Vault – Projects
+
+<div align="center" style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px 0;
+">
+
+  <!-- 카드 1 -->
+  <div style="
+    width: 420px;
+    background: linear-gradient(180deg, #fff9e9, #fffefb);
+    border: 1.5px solid #f2d48a;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+  ">
+    <img src="./assets/wisheasy.png" alt="Wisheasy"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0;"/>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">쉽길 (Wisheasy)</h3>
+    <p style="font-size: 13px; color: #a07500; margin: 0;">팀 프로젝트</p>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br/>
+      출·도착역 입력 시 <b>최적 이동 동선</b>을 스토리 카드 형식으로 안내합니다.
+    </p>
+    <div style="margin-top: 12px;">
+      <a href="https://www.wisheasy.site/" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
+      &nbsp;
+      <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
+    </div>
+  </div>
+
+  <!-- 카드 2 -->
+  <div style="
+    width: 420px;
+    background: linear-gradient(180deg, #f4edff, #ffffff);
+    border: 1.5px solid #cdb7f6;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 18px;
+    text-align: center;
+  ">
+    <img src="./assets/runornot.png" alt="RunOrNot"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff;"/>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b2f5f;">뛸까말까 (RunOrNot)</h3>
+    <p style="font-size: 13px; color: #6b46c1; margin: 0;">개인 프로젝트</p>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      실시간 지하철 도착정보 API 연동.<br/>
+      <b>“뛸지/말지”</b>를 배지로 직관적으로 안내하는 웹 서비스입니다.
+    </p>
+    <div style="margin-top: 12px;">
+      <a href="https://runornot.site" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
+      &nbsp;
+      <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
+    </div>
+  </div>
+
+  <!-- 카드 3 -->
+  <div style="
+    width: 420px;
+    background: linear-gradient(180deg, #f0fff7, #ffffff);
+    border: 1.5px solid #a8e6c2;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 18px;
+    text-align: center;
+  ">
+    <img src="./assets/portfolio.png" alt="Game Portfolio"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8;"/>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #064e3b;">게임형 포트폴리오</h3>
+    <p style="font-size: 13px; color: #0f766e; margin: 0;">개인 포트폴리오</p>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      React + Tailwind 기반 <b>애니메이션 인터랙션형 포트폴리오</b>.<br/>
+      카드형 타임라인과 다양한 시각 효과를 적용했습니다.
+    </p>
+    <div style="margin-top: 12px;">
+      <a href="https://na-journey.netlify.app/" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
+      &nbsp;
+      <a href="#" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
+    </div>
+  </div>
+
+  <!-- 카드 4 -->
+  <div style="
+    width: 420px;
+    background: linear-gradient(180deg, #eef6ff, #ffffff);
+    border: 1.5px solid #a9c7ff;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 18px;
+    text-align: center;
+  ">
+    <img src="./assets/cv.png" alt="CV (najungh)"
+      style="width: 320px; height: 180px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff;"/>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #1e3a8a;">CV (najungh)</h3>
+    <p style="font-size: 13px; color: #1d4ed8; margin: 0;">개인 이력서</p>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br/>
+      개인 정적 웹사이트(index.html).
+    </p>
+    <div style="margin-top: 12px;">
+      <a href="https://www.najungh.site/" target="_blank" style="text-decoration:none; color:#1d4ed8; font-size:13px; border:1px solid #9bbcff; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
+      &nbsp;
+      <a href="https://github.com/najung-h/project-portfolio" target="_blank" style="text-decoration:none; color:#1d4ed8; font-size:13px; border:1px solid #9bbcff; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
+    </div>
+  </div>
+
+</div>
 
 <div align="center" style="
   display: flex;
