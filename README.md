@@ -50,6 +50,52 @@
     <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
   </a>
 </p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/wisheasy.png" width="300" alt="Wisheasy"/><br><br>
+      <b>쉽길 (Wisheasy)</b><br>
+      <sub>팀 프로젝트</sub><br><br>
+      지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br>
+      출발·도착역을 입력하면 <br>역사 구조와 에스컬레이터 위치 데이터를 기반으로<br>
+      <b>최적 이동 동선</b>을 스토리 카드 형식으로 안내.<br><br>
+      <a href="https://www.wisheasy.site/">🌐 사이트</a> |
+      <a href="https://github.com/najung-h/project-wisheasy">💻 GitHub</a>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/runornot.png" width="300" alt="RunOrNot"/><br><br>
+      <b>뛸까말까 (RunOrNot)</b><br>
+      <sub>개인 프로젝트</sub><br><br>
+      실시간 지하철 도착정보 API 연동,<br>
+      <b>뛸지/말지를 배지로 직관적으로 안내</b>.<br>
+      사용자 맞춤형 UX 중심의 웹 서비스.<br><br>
+      <a href="https://runornot.site">🌐 사이트</a> |
+      <a href="https://github.com/najung-h/project-wishfast">💻 GitHub</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="./assets/portfolio.png" width="300" alt="Portfolio"/><br><br>
+      <b>게임형 포트폴리오</b><br>
+      <sub>개인 포트폴리오</sub><br><br>
+      React + Tailwind 기반으로 제작된<br>
+      <b>애니메이션 인터랙션형 포트폴리오</b>.<br>
+      카드형 타임라인 및 효과 중심 UI 적용.<br><br>
+      <a href="https://na-journey.netlify.app/">🌐 사이트</a> |
+      <a href="#">💻 GitHub</a>
+    </td>
+    <td align="center" width="50%">
+      <img src="./assets/cv.png" width="300" alt="CV (najungh)"/><br><br>
+      <b>CV (najungh)</b><br>
+      <sub>개인 이력서</sub><br><br>
+      AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br>
+      개인 정적 웹사이트 (index.html).<br><br>
+      <a href="https://www.najungh.site/">🌐 사이트</a> |
+      <a href="https://github.com/najung-h/project-portfolio">💻 GitHub</a>
+    </td>
+  </tr>
+</table>
+
 <div align="center" style="
   display: flex;
   justify-content: center;
