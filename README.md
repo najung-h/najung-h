@@ -1,5 +1,3 @@
-<!-- ✅ 리팩토링: 내용 생략 없음 / 가운데 정렬 유지 / Tech Stack의 <br> 설계 유지 -->
-
 <!-- 컨트리 뱃지 박스 -->
 <div align="center" style="
   display: inline-block;
@@ -10,6 +8,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   margin: 16px auto;
 ">
+  <br>
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line" aria-label="Go to Gitanimals">
     <img
       src="https://render.gitanimals.org/lines/najung-h"
@@ -37,6 +36,7 @@
     <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=flat-square&logo=aboutdotme&logoColor=white" alt="Portfolio Badge"/>
   </a>
   &nbsp;
+  <br>
   <a href="mailto:junghyun.na321@gmail.com" aria-label="Send Email">
     <img src="https://img.shields.io/badge/junghyun.na321@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email Address"/>
   </a>
@@ -74,6 +74,9 @@
 
 <br><br>
 
+---
+<br><br>
+
 <!-- 프로젝트 카드 섹션 -->
 <div align="center" style="
   display: flex;
@@ -84,7 +87,7 @@
   margin: 0 auto;
   max-width: 100%;
 ">
-
+# 프로젝트
   <!-- 카드 1 -->
   <div style="
     width: 420px;
@@ -114,7 +117,8 @@
       <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
+  <br> <br><br>
+
 
   <!-- 카드 2 -->
   <div style="
@@ -144,7 +148,8 @@
       <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
+  <br> <br><br>
+
 
   <!-- 카드 3 -->
   <div style="
@@ -174,7 +179,8 @@
       <a href="#" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-  <br>
+  <br> <br><br>
+
 
   <!-- 카드 4 -->
   <div style="
@@ -206,7 +212,8 @@
   </div>
 </div>
 
-<br>
+<br> <br><br>
+
 
 <!-- 블로그 카드 (단일) -->
 <div align="center" style="
@@ -235,6 +242,7 @@
     </p>
   </div>
 </div>
+<br><br>
 
 ---
 
@@ -359,6 +367,9 @@
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 </p>
 
+<br><br>
+
+---
 <br><br>
 
 <div align="center">
