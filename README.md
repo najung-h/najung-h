@@ -76,7 +76,7 @@
 
 ---
 <br><br>
-
+# 프로젝트
 <!-- 프로젝트 카드 섹션 -->
 <div align="center" style="
   display: flex;
@@ -87,7 +87,7 @@
   margin: 0 auto;
   max-width: 100%;
 ">
-# 프로젝트
+
   <!-- 카드 1 -->
   <div style="
     width: 420px;
