@@ -44,12 +44,12 @@
 </div>
 </div>
 
-
-<p align="center">
-  <a href="https://hadahae2024.tistory.com">
-    <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" />
-  </a>
-</p>
+  <br>  <br>
+<!-- <p align="center"> -->
+ <!-- <a href="https://hadahae2024.tistory.com"> -->
+    <!-- <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" /> -->
+  <!-- </a> -->
+<!-- </p> -->
 
 
 <div align="center" style="
@@ -85,7 +85,7 @@
       <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-
+  <br>
   <!-- 카드 2 -->
   <div style="
     width: 420px;
@@ -110,7 +110,7 @@
       <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-
+  <br>
   <!-- 카드 3 -->
   <div style="
     width: 420px;
@@ -135,7 +135,7 @@
       <a href="#" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
     </div>
   </div>
-
+  <br>
   <!-- 카드 4 -->
   <div style="
     width: 420px;
@@ -162,7 +162,7 @@
   </div>
 
 </div>
-
+  <br>
 <div align="center" style="
   display: flex;
   justify-content: center;
@@ -188,7 +188,7 @@
   margin-top: 20px;
 ">
 
-
+  <br>
 
 
 <div align="center" style="
@@ -206,13 +206,13 @@
   width: fit-content;
 ">
 
-  <a href="https://najungh.site" target="_blank" rel="noopener noreferrer">
+  <a href="https://hadahae2024.tistory.com" target="_blank" rel="noopener noreferrer">
   <img src="images/image-Photoroom.png" 
-       alt="나정현 타이포그래피" 
+       alt="기술 블로그" 
        style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
   </a>
 
-
+  <br>  <br>
 
   <div style="
     color: #ffffff;
