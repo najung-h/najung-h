@@ -9,6 +9,7 @@
   margin-top: 12px;
   margin-bottom: 8px;
 ">
+
   <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=najung-h&utm_content=line" aria-label="Go to Gitanimals">
     <img
       src="https://render.gitanimals.org/lines/najung-h"
@@ -19,7 +20,7 @@
     />
   </a>
 </div>
-
+  <br>
 <div align="center" style="margin-top: 6px; margin-bottom: 12px;">
   <a href="https://github.com/najung-h" aria-label="GitHub Profile">
     <img src="https://komarev.com/ghpvc/?username=najung-h&color=ff69b4&style=flat-square" alt="Profile Views"/>
@@ -45,11 +46,6 @@
 </div>
 
   <br>  <br>
-<!-- <p align="center"> -->
- <!-- <a href="https://hadahae2024.tistory.com"> -->
-    <!-- <img src="https://capsule-render.vercel.app/api?type=soft&color=FF8C00&height=100&section=header&text=Tistory%20Blog&fontSize=40&fontColor=fff&animation=fadeIn" /> -->
-  <!-- </a> -->
-<!-- </p> -->
 
 
 <div align="center" style="
@@ -211,6 +207,10 @@
        alt="기술 블로그" 
        style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
   </a>
+  <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">티스토리 (Wisheasy)</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      SSAFY에서의 생활과 트러블 슈팅 등을 기록합니다.<br/>
+    </p>
 
   <br>  <br>
 
@@ -402,13 +402,6 @@
 | IBK 기업은행                                   | 디지털          | 경제연구소 중기산업연구실 | 2024.01-2024.02 |
 
 
-###   <br>  <br>  🚀 Service
-| 서비스명 | 설명 | 링크 |
-|:--|:--|:--:|
-| 🚇 **쉽길** | 지하철 에스컬레이터 경로 안내 서비스 | [wisheasy.site](https://wisheasy.site) |
-| 🚇 **뛸까말까** | 지하철 실시간 도착 정보 안내 서비스 | [runornot.site](runornot.site) |
-| 🧑‍💻 **나정현** | 개인 포트폴리오 페이지 | [najungh.site](https://najungh.site) |
-
   <br>  <br>
 
 
@@ -426,8 +419,6 @@
 />
 </a>
 
-
-## 🐍 Snake & 🌱 3D Grass
 
 <!-- 3D 잔디 -->
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
