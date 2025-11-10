@@ -52,51 +52,129 @@
 </p>
 
 <div align="center">
-<table>
+
+<table style="border-collapse:separate; border-spacing:16px; width:100%; max-width:980px;">
   <tr>
-    <td align="center" width="50%">
-      <img src="./assests/wisheasy.png" width="300" alt="Wisheasy"/><br><br>
-      <b>쉽길 (Wisheasy)</b><br>
-      <sub>팀 프로젝트</sub><br><br>
-      지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br>
-      출발·도착역을 입력하면 <br>역사 구조와 에스컬레이터 위치 데이터를 기반으로<br>
-      <b>최적 이동 동선</b>을 스토리 카드 형식으로 안내.<br><br>
-      <a href="https://www.wisheasy.site/">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-wisheasy">💻 GitHub</a>
+    <!-- Card 1 -->
+    <td align="center" style="
+      width:50%;
+      background: linear-gradient(180deg, #fffaf7, #fff);
+      border:1px solid #f2d5a8;
+      border-radius:16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+      padding:16px 16px 18px;
+    ">
+      <img src="./assets/wisheasy.png" alt="Wisheasy"
+        style="width:320px; height:180px; object-fit:cover; border-radius:12px; border:1px solid #f1e4c5; display:block;"/>
+      <div style="margin-top:12px; font-weight:700; font-size:18px; color:#2f4f4f;">쉽길 (Wisheasy)</div>
+      <div style="font-size:12px; color:#a0741a; margin-top:2px;">팀 프로젝트</div>
+      <div style="font-size:13px; color:#475569; margin:10px 8px 12px; line-height:1.55;">
+        지하철 역사 내 <b>에스컬레이터 기반 경로 안내</b> 서비스.<br/>
+        출·도착역을 입력하면 <b>최적 이동 동선</b>을 스토리 카드로 안내합니다.
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <a href="https://www.wisheasy.site/" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #f2d5a8; border-radius:10px; text-decoration:none; color:#8b5e00; font-size:13px;">
+          🌐 사이트
+        </a>
+        <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #f2d5a8; border-radius:10px; text-decoration:none; color:#8b5e00; font-size:13px;">
+          💻 GitHub
+        </a>
+      </div>
     </td>
-    <td align="center" width="50%">
-      <img src="./assests/runornot.png" width="300" alt="RunOrNot"/><br><br>
-      <b>뛸까말까 (RunOrNot)</b><br>
-      <sub>개인 프로젝트</sub><br><br>
-      실시간 지하철 도착정보 API 연동,<br>
-      <b>뛸지/말지를 배지로 직관적으로 안내</b>.<br>
-      사용자 맞춤형 UX 중심의 웹 서비스.<br><br>
-      <a href="https://runornot.site">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-wishfast">💻 GitHub</a>
+
+    <!-- Card 2 -->
+    <td align="center" style="
+      width:50%;
+      background: linear-gradient(180deg, #f6f1ff, #ffffff);
+      border:1px solid #cdb7f6;
+      border-radius:16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+      padding:16px 16px 18px;
+    ">
+      <img src="./assets/runornot.png" alt="RunOrNot"
+        style="width:320px; height:180px; object-fit:cover; border-radius:12px; border:1px solid #e6dbff; display:block;"/>
+      <div style="margin-top:12px; font-weight:700; font-size:18px; color:#3b2f5f;">뛸까말까 (RunOrNot)</div>
+      <div style="font-size:12px; color:#6b46c1; margin-top:2px;">개인 프로젝트</div>
+      <div style="font-size:13px; color:#475569; margin:10px 8px 12px; line-height:1.55;">
+        실시간 지하철 도착정보 API 연동으로<br/>
+        <b>뛸지/말지</b>를 배지로 직관적으로 안내합니다.
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <a href="https://runornot.site" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #cdb7f6; border-radius:10px; text-decoration:none; color:#553c9a; font-size:13px;">
+          🌐 사이트
+        </a>
+        <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #cdb7f6; border-radius:10px; text-decoration:none; color:#553c9a; font-size:13px;">
+          💻 GitHub
+        </a>
+      </div>
     </td>
   </tr>
+
   <tr>
-    <td align="center" width="50%">
-      <img src="./assests/portfolio.png" width="300" alt="Portfolio"/><br><br>
-      <b>게임형 포트폴리오</b><br>
-      <sub>개인 포트폴리오</sub><br><br>
-      React + Tailwind 기반으로 제작된<br>
-      <b>애니메이션 인터랙션형 포트폴리오</b>.<br>
-      카드형 타임라인 및 효과 중심 UI 적용.<br><br>
-      <a href="https://na-journey.netlify.app/">🌐 사이트</a> |
-      <a href="#">💻 GitHub</a>
+    <!-- Card 3 -->
+    <td align="center" style="
+      width:50%;
+      background: linear-gradient(180deg, #f0fff7, #ffffff);
+      border:1px solid #a8e6c2;
+      border-radius:16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+      padding:16px 16px 18px;
+    ">
+      <img src="./assets/portfolio.png" alt="Game Portfolio"
+        style="width:320px; height:180px; object-fit:cover; border-radius:12px; border:1px solid #d8f5e3; display:block;"/>
+      <div style="margin-top:12px; font-weight:700; font-size:18px; color:#134e4a;">게임형 포트폴리오</div>
+      <div style="font-size:12px; color:#0f766e; margin-top:2px;">개인 포트폴리오</div>
+      <div style="font-size:13px; color:#475569; margin:10px 8px 12px; line-height:1.55;">
+        React + Tailwind 기반의 <b>인터랙션 포트폴리오</b>.<br/>
+        카드형 타임라인과 애니메이션 효과 적용.
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <a href="https://na-journey.netlify.app/" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #a8e6c2; border-radius:10px; text-decoration:none; color:#0f766e; font-size:13px;">
+          🌐 사이트
+        </a>
+        <a href="#" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #a8e6c2; border-radius:10px; text-decoration:none; color:#0f766e; font-size:13px;">
+          💻 GitHub
+        </a>
+      </div>
     </td>
-    <td align="center" width="50%">
-      <img src="./assests/cv.png" width="300" alt="CV (najungh)"/><br><br>
-      <b>CV (najungh)</b><br>
-      <sub>개인 이력서</sub><br><br>
-      AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br>
-      개인 정적 웹사이트 (index.html).<br><br>
-      <a href="https://www.najungh.site/">🌐 사이트</a> |
-      <a href="https://github.com/najung-h/project-portfolio">💻 GitHub</a>
+
+    <td align="center" style="
+      width:50%;
+      background: linear-gradient(180deg, #eef6ff, #ffffff);
+      border:1px solid #a9c7ff;
+      border-radius:16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.06);
+      padding:16px 16px 18px;
+    ">
+      <img src="./assets/cv.png" alt="CV (najungh)"
+        style="width:320px; height:180px; object-fit:cover; border-radius:12px; border:1px solid #d4e3ff; display:block;"/>
+      <div style="margin-top:12px; font-weight:700; font-size:18px; color:#1e3a8a;">CV (najungh)</div>
+      <div style="font-size:12px; color:#1d4ed8; margin-top:2px;">개인 이력서</div>
+      <div style="font-size:13px; color:#475569; margin:10px 8px 12px; line-height:1.55;">
+        AWS EC2에서 <b>Docker Compose</b>로 배포한<br/>
+        개인 정적 웹사이트(index.html).
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <a href="https://www.najungh.site/" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #a9c7ff; border-radius:10px; text-decoration:none; color:#1d4ed8; font-size:13px;">
+          🌐 사이트
+        </a>
+        <a href="https://github.com/najung-h/project-portfolio" target="_blank" style="
+          padding:6px 12px; border:1.8px solid #a9c7ff; border-radius:10px; text-decoration:none; color:#1d4ed8; font-size:13px;">
+          💻 GitHub
+        </a>
+      </div>
     </td>
   </tr>
 </table>
+
+</div>
 
 <div align="center" style="
   display: flex;
