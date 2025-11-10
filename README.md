@@ -49,29 +49,32 @@
 
   <!-- 소개 섹션 -->
   <div style="
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Pretendard', 'Inter', sans-serif;
-    padding: 32px 0;
-    border-top: 1px solid rgba(255,255,255,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    max-width: 600px;
-    margin: 0 auto;
   ">
-    <h2 style="color:#ffb6c1; margin-bottom: 12px; letter-spacing: 1px;">
-      Hi, I'm <b>Junghyun Na 👋</b>
-    </h2>
-    <p style="line-height: 1.8; font-size: 15.5px; color: rgba(255,255,255,0.9); margin: 0 20px;">
-      FULL STACK Engineer & AI Learner.<br>
-      Passionate about <b>서비스 기획 - 운영 - 배포 - 데이터 분석 - AI - 고도화</b>.<br>
-      I love crafting clean architectures and elegant automation.<br><br>
-      <i>"오늘 하루도 최선을 다하자"</i>
-    </p>
+    <div style="
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Pretendard', 'Inter', sans-serif;
+      padding: 40px 0;
+      border-top: 1px solid rgba(255,255,255,0.25);
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+      max-width: 600px;
+    ">
+      <h2 style="color:#ffb6c1; margin-bottom: 12px; letter-spacing: 1px;">
+        Hi, I'm <b>Junghyun Na 👋</b>
+      </h2>
+      <p style="line-height: 1.8; font-size: 15.5px; color: rgba(255,255,255,0.9); margin: 0 20px;">
+        FULL STACK Engineer & AI Learner.<br>
+        Passionate about <b>서비스 기획 - 운영 - 배포 - 데이터 분석 - AI - 고도화</b>.<br>
+        I love crafting clean architectures and elegant automation.<br><br>
+        <i>"오늘 하루도 최선을 다하자"</i>
+      </p>
+    </div>
   </div>
+
 
 <br>  <br>
 
