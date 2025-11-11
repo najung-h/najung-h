@@ -236,7 +236,7 @@
            alt="기술 블로그" 
            style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
     </a>
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">티스토리 (Wisheasy)</h3>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">티스토리 (SSAFYcial)</h3>
     <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
       SSAFY에서의 생활과 트러블 슈팅 등을 기록합니다.<br/>
     </p>
