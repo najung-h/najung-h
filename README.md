@@ -74,186 +74,106 @@
 <br><br>
 
 ---
-<br><br>
+<br>
 
-<!-- 프로젝트 카드 섹션 -->
-<div align="center" style="
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  padding: 12px 0;
-  margin: 0 auto;
-  max-width: 100%;
-">
+<h2 align="center">📌 프로젝트</h2>
 
-  <h1>프로젝트</h1>
+---
 
-  <!-- 🔥 카드 0 : 둥지 (DOONGZI) -->
-  <div style="
-    width: 420px;
-    background: linear-gradient(180deg, #f0f7ff, #ffffff);
-    border: 1.5px solid #b9d8ff;
-    border-radius: 18px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    padding: 18px;
-    text-align: center;
-    transition: all 0.3s ease;
-  ">
-    <a href="https://doongzi.site" target="_blank" rel="noopener noreferrer">
-      <img src="./assets/doongzi.png" alt="Doongzi"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e6ff; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)';"
-        onmouseout="this.style.transform='scale(1)'"/>
-    </a>
+<!-- 둥지 -->
 
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #134e9b;">둥지 (집 찾는 아기새)</h3>
-    <p style="font-size: 13px; color: #1d60c4; margin: 0;">팀 프로젝트 · AI 법률/부동산 비서</p>
-    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
-      임대차 계약의 <b>위험 요소를 자동 분석</b>하는 AI 기반 서비스입니다.<br/>
-      등기부등본·건축물대장·계약서를 OCR로 추출하고,<br/>
-      <b>LLM + MCP + n8n</b>으로 실시간 체크리스트 검증을 수행합니다.
-    </p>
-    
-    <div style="margin-top: 12px;">
-      <a href="https://doongzi.site" target="_blank" style="text-decoration:none; color:#134e9b; font-size:13px; border:1px solid #b7d4ff; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
-      &nbsp;
-      <a href="https://github.com/najung-h/Doongzifrontend" target="_blank" style="text-decoration:none; color:#134e9b; font-size:13px; border:1px solid #b7d4ff; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
-    </div>
-  </div>
+<div align="center">
 
-  <!-- 🔽 아래부터 기존 프로젝트 카드 1~4 (Wisheasy / RunOrNot / Portfolio / CV)  -->
+### 🪺 둥지 (집 찾는 아기새)
+> **팀 프로젝트 · AI 법률/부동산 비서**
 
-  <!-- 카드 1 : Wisheasy -->
-  <div style="
-    width: 420px;
-    background: linear-gradient(180deg, #fff9e9, #fffefb);
-    border: 1.5px solid #f2d48a;
-    border-radius: 18px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    padding: 18px;
-    text-align: center;
-  ">
-    <a href="https://www.wisheasy.site/" target="_blank">
-      <img src="./assets/wisheasy.png" alt="Wisheasy"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #f8e3b0; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)'"
-        onmouseout="this.style.transform='scale(1)'"/>
-    </a>
+<a href="https://doongzi.site" target="_blank">
+  <img src="./assets/doongzi.png" width="500px" />
+</a>
 
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">쉽길 (Wisheasy)</h3>
-    <p style="font-size: 13px; color: #a07500; margin: 0;">팀 프로젝트</p>
-    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
-      지하철 역사 내 <b>에스컬레이터 기반 경로 안내 서비스</b>.<br/>
-      출·도착역 입력 시 <b>최적 이동 동선</b>을 스토리 카드 형식으로 안내합니다.
-    </p>
-    
-    <div style="margin-top: 12px;">
-      <a href="https://www.wisheasy.site/" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
-      &nbsp;
-      <a href="https://github.com/najung-h/project-wisheasy" target="_blank" style="text-decoration:none; color:#b8860b; font-size:13px; border:1px solid #e9c46a; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
-    </div>
-  </div>
+임대차 계약의 **위험 요소를 자동 분석**하는 AI 기반 서비스입니다.  
+등기부등본 · 건축물대장 · 계약서를 OCR로 분석하고,  
+**LLM + MCP + n8n** 기반으로 실시간 체크리스트 검증을 수행합니다.
 
+🔗 [사이트 바로가기](https://doongzi.site) · [GitHub](https://github.com/najung-h/Doongzifrontend)
 
-  <!-- 카드 2 : RunOrNot -->
-  <div style="
-    width: 420px;
-    background: linear-gradient(180deg, #f4edff, #ffffff);
-    border: 1.5px solid #cdb7f6;
-    border-radius: 18px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    padding: 18px;
-    text-align: center;
-  ">
-    <a href="https://runornot.site" target="_blank">
-      <img src="./assets/runornot.png" alt="RunOrNot"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #e0d3ff; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)'"
-        onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b2f5f;">뛸까말까 (RunOrNot)</h3>
-    <p style="font-size: 13px; color: #6b46c1; margin: 0;">개인 프로젝트</p>
-    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
-      실시간 지하철 도착정보 API 연동.<br/>
-      <b>“뛸지/말지”</b>를 배지로 직관적으로 안내하는 웹 서비스입니다.
-    </p>
-    
-    <div style="margin-top: 12px;">
-      <a href="https://runornot.site" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
-      &nbsp;
-      <a href="https://github.com/najung-h/project-wishfast" target="_blank" style="text-decoration:none; color:#5b3fa4; font-size:13px; border:1px solid #bda4ef; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
-    </div>
-  </div>
-
-
-  <!-- 카드 3 : 게임형 포트폴리오 -->
-  <div style="
-    width: 420px;
-    background: linear-gradient(180deg, #f0fff7, #ffffff);
-    border: 1.5px solid #a8e6c2;
-    border-radius: 18px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    padding: 18px;
-    text-align: center;
-  ">
-    <a href="https://na-journey.netlify.app/" target="_blank">
-      <img src="./assets/portfolio.png" alt="Game Portfolio"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #c8f5d8; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)'"
-        onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #064e3b;">게임형 포트폴리오</h3>
-    <p style="font-size: 13px; color: #0f766e; margin: 0;">개인 포트폴리오</p>
-    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
-      React + Tailwind 기반 <b>애니메이션 인터랙션형 포트폴리오</b>.<br/>
-      다양한 시각 효과와 카드형 타임라인 구성.
-    </p>
-    
-    <div style="margin-top: 12px;">
-      <a href="https://na-journey.netlify.app/" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
-      &nbsp;
-      <a href="#" target="_blank" style="text-decoration:none; color:#0f766e; font-size:13px; border:1px solid #9fe3c3; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
-    </div>
-  </div>
-
-
-  <!-- 카드 4 : CV 사이트 -->
-  <div style="
-    width: 420px;
-    background: linear-gradient(180deg, #eef6ff, #ffffff);
-    border: 1.5px solid #a9c7ff;
-    border-radius: 18px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    padding: 18px;
-    text-align: center;
-  ">
-    <a href="https://www.najungh.site/" target="_blank">
-      <img src="./assets/cv.png" alt="CV (najungh)"
-        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e3ff; transition: transform 0.25s ease;"
-        onmouseover="this.style.transform='scale(1.03)'"
-        onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-
-    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #1e3a8a;">CV (najungh)</h3>
-    <p style="font-size: 13px; color: #1d4ed8; margin: 0;">개인 이력서</p>
-    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
-      AWS EC2 환경에서 <b>Docker Compose</b>로 배포된<br/>
-      개인 정적 웹사이트(index.html).
-    </p>
-    
-    <div style="margin-top: 12px;">
-      <a href="https://www.najungh.site/" target="_blank" style="text-decoration:none; color:#1d4ed8; font-size:13px; border:1px solid #9bbcff; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
-      &nbsp;
-      <a href="https://github.com/najung-h/project-portfolio" target="_blank" style="text-decoration:none; color:#1d4ed8; font-size:13px; border:1px solid #9bbcff; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
-    </div>
-  </div>
+---
 
 </div>
 
-<br><br><br>
+<!-- 쉽길 -->
+<div align="center">
+
+### 🚇 쉽길 (Wisheasy)
+> 팀 프로젝트
+
+<a href="https://www.wisheasy.site/" target="_blank">
+  <img src="./assets/wisheasy.png" width="500px" />
+</a>
+
+지하철 역사 내 **에스컬레이터 기반 최적 이동 동선 안내 서비스**입니다.  
+입력한 출·도착역 기준으로 **스토리 카드 형식**으로 이동 경로를 안내합니다.
+
+🔗 [사이트](https://www.wisheasy.site/) · [GitHub](https://github.com/najung-h/project-wisheasy)
+
+---
+
+</div>
+
+<!-- RunOrNot -->
+<div align="center">
+
+### 🏃 뛸까말까 (RunOrNot)
+> 개인 프로젝트
+
+<a href="https://runornot.site" target="_blank">
+  <img src="./assets/runornot.png" width="500px" />
+</a>
+
+실시간 지하철 도착 정보를 기반으로  
+지금 **뛰어야 할지 말아야 할지**를 직관적으로 알려주는 웹 서비스입니다.
+
+🔗 [사이트](https://runornot.site) · [GitHub](https://github.com/najung-h/project-wishfast)
+
+---
+
+</div>
+
+<!-- 포트폴리오 -->
+<div align="center">
+
+### 🎮 게임형 포트폴리오
+> 개인 포트폴리오
+
+<a href="https://na-journey.netlify.app/" target="_blank">
+  <img src="./assets/portfolio.png" width="500px" />
+</a>
+
+React + Tailwind로 만든 **애니메이션 인터랙션형 포트폴리오**입니다.
+
+🔗 [사이트](https://na-journey.netlify.app/)
+
+---
+
+</div>
+
+<!-- CV -->
+<div align="center">
+
+### 📄 CV (najungh)
+> 개인 이력서 · Docker Compose 배포
+
+<a href="https://www.najungh.site/" target="_blank">
+  <img src="./assets/cv.png" width="500px" />
+</a>
+
+EC2 환경에서 Docker Compose로 배포한 개인 이력서 사이트입니다.
+
+🔗 [사이트](https://www.najungh.site/) · [GitHub](https://github.com/najung-h/project-portfolio)
+
+---
+
+</div>
 
 <!-- 블로그 카드 (단일) -->
 
