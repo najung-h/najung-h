@@ -71,13 +71,48 @@
     </p>
   </div>
 </div>
-
 <br><br>
 
 ---
 <br><br>
 
+  <!-- 🔥 카드 0 : 둥지 (DOONGJI) -->
+  <div style="
+    width: 420px;
+    background: linear-gradient(180deg, #f0f7ff, #ffffff);
+    border: 1.5px solid #b9d8ff;
+    border-radius: 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    padding: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+  ">
+    <a href="doongzi.site" target="_blank" rel="noopener noreferrer">
+      <img src="./assets/doongzi.png" alt="Doongzi"
+        style="width: 320px; height: 270px; border-radius: 12px; object-fit: cover; border: 1px solid #d4e6ff; transition: transform 0.25s ease;"
+        onmouseover="this.style.transform='scale(1.03)';"
+        onmouseout="this.style.transform='scale(1)';"/>
+    </a>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #134e9b;">둥지 (집 찾는 아기새)</h3>
+    <p style="font-size: 13px; color: #1d60c4; margin: 0;">팀 프로젝트 · AI 법률/부동산 비서</p>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      임대차 계약의 <b>위험 요소를 자동 분석</b>하는 AI 기반 서비스입니다.<br/>
+      등기부등본·건축물대장·계약서를 OCR로 추출하고,<br/>
+      <b>LLM + MCP + n8n</b>으로 실시간 체크리스트 검증을 수행합니다.
+    </p>
+    <div style="margin-top: 12px;">
+      <a href="doongzi.site" target="_blank" style="text-decoration:none; color:#134e9b; font-size:13px; border:1px solid #b7d4ff; border-radius:8px; padding:6px 10px;">🌐 사이트</a>
+      &nbsp;
+      <a href="https://github.com/najung-h/Doongzifrontend" target="_blank" style="text-decoration:none; color:#134e9b; font-size:13px; border:1px solid #b7d4ff; border-radius:8px; padding:6px 10px;">💻 GitHub</a>
+    </div>
+  </div>
+
+
+
+
+
 <!-- 프로젝트 카드 섹션 -->
+
 <div align="center" style="
   display: flex;
   flex-wrap: wrap;
@@ -214,8 +249,8 @@
 
 <br> <br><br>
 
-
 <!-- 블로그 카드 (단일) -->
+
 <div align="center" style="
   display: flex;
   justify-content: center;
