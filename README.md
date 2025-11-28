@@ -88,8 +88,8 @@
 > **팀 프로젝트 · AI 법률/부동산 비서**
 
 <a href="https://doongzi.site" target="_blank">
-  <img src="./assets/doongzi.png" width="500px" />
   <img src="./assets/수상.jpg" width="500px" />
+  <img src="./assets/doongzi.png" width="500px" />
 </a>
 
 임대차 계약의 **위험 요소를 자동 분석**하는 AI 기반 서비스입니다.  
