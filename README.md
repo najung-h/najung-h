@@ -343,7 +343,7 @@ EC2 환경에서 Docker Compose로 배포한 개인 이력서 사이트입니다
 | SQLD                | 한국데이터산업진흥원     | 2024.04 취득               |
 | 삼성 SW 역량테스트 A형 | 삼성전자                | 2025.09 취득               |
 | SSAFY 이달의 동료         | 삼성청년SW아카데미(SSAFY) | 2025.08 수상               |
-| AI NoCode·MCP Hackathon SEASON 2 | 과기정통부 · 한국지능정보사회진흥원 | 대   |
+| AI NoCode·MCP Hackathon SEASON 2 | 과기정통부 · 한국지능정보사회진흥원 | 대상   |
 
 <br><br>
 
