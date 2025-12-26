@@ -73,6 +73,8 @@
 </div>
 <br><br>
 
+<img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
+
 ---
 <br>
 
