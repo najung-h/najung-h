@@ -65,7 +65,7 @@
     </h2>
     <p style="line-height: 1.8; font-size: 15.5px; color: rgba(255,255,255,0.9); margin: 0 20px;">
       FULL STACK Engineer & AI Learner.<br>
-      Passionate about <b>서비스 기획 - 운영 - 배포 - 데이터 분석 - AI - 고도화</b>.<br>
+      Passionate about <b>Devops - MLOps - AIOps - LLMOps - Data Analytics - AI</b>.<br>
       I love crafting clean architectures and elegant automation.<br><br>
       <i>"오늘 하루도 최선을 다하자"</i>
     </p>
