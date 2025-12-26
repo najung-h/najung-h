@@ -103,6 +103,28 @@
 
 </div>
 
+<!-- 라이프런 -->
+
+<div align="center">
+
+### 📚 라이프런(LIFE-LEARN)
+> **팀 프로젝트 · AI 개인화 강의 추천 
+
+<a href="https://doongzi.site" target="_blank">
+  <img src="./assets/lifelearn-image.png" width="500px" />
+</a>
+
+K-MOOC 플랫폼의 사용자 경험을 개선하고,
+AI 기반 개인화 추천 시스템을 제공하는 온라인 강좌 학습 플랫폼입니다.
+이로써, 시간이 부족한 현대 사회인에게 맞춤화된 교육 경험을 제공하는 데 의의를 두고 있습니다.
+
+🔗 [사이트 바로가기](https://life-learn.site) · [GitHub](https://github.com/najung-h/project-lifelearn)
+
+---
+
+</div>
+
+
 <!-- 쉽길 -->
 <div align="center">
 
