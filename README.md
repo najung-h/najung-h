@@ -75,6 +75,7 @@
 
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
 
+
 ---
 <br><br>
 
@@ -110,7 +111,6 @@
 | IBK 기업은행     | 디지털   | 경제연구소 중기산업연구실 | 2024.01-2024.02 |
 
 <br><br>
-
 
 ---
 <br>
