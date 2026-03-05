@@ -87,7 +87,7 @@
 <div align="center">
 
 ### 🪺 둥지 (집 찾는 아기새)
-> **팀 프로젝트 · AI 법률/부동산 비서**
+> **팀 프로젝트 · PM · 법률/부동산 비서**
 
 <a href="https://doongzi.site" target="_blank">
   <img src="./assets/대상.webp" width="200px" />
@@ -115,8 +115,8 @@
   <img src="./assets/aitime-image.png" width="500px" />
 </a>
 
-영유아 행동 영상을 분석해 **ASD 행동 지표(눈맞춤, 호명반응, 모방행동)**를 자동 측정하는 AI 진단 보조 시스템입니다.  
-컴퓨터 비전 기반 **행동 분석 파이프라인**을 통해 행동 데이터를 정량화하고 의사 대시보드로 제공합니다.  
+영유아 행동 영상을 분석해 **ASD 행동 지표(눈맞춤, 호명반응, 모방행동)**를 자동 측정하는 AI 진단 보조 솔루션입니다.  
+비전 · 음성 기반 **행동 분석 파이프라인**을 통해 행동 데이터를 정량화하고 의사 대시보드로 제공합니다.  
 최대 **1년 이상 발생하는 ASD 진단 대기 문제를 완화**하고 조기 치료 개입을 지원합니다.
 
 🔗 [사이트 바로가기](https://i14a501.p.ssafy.io/) · [GitHub](https://lab.ssafy.com/s14-webmobile1-sub1/S14P11A501/)
@@ -131,7 +131,7 @@
 <div align="center">
 
 ### 📚 라이프런(LIFE-LEARN)
-> **팀 프로젝트 · AI 개인화 강의 추천 
+> **팀 프로젝트 · AI · 개인화 강의 추천 **
 
 <a href="https://doongzi.site" target="_blank">
   <img src="./assets/lifelearn-image.png" width="500px" />
