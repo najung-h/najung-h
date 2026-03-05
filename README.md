@@ -88,9 +88,8 @@
 | ADsP                | 한국데이터산업진흥원     | 2023.11 취득               |
 | SQLD                | 한국데이터산업진흥원     | 2024.04 취득               |
 | 삼성 SW 역량테스트 A형 | 삼성전자                | 2025.09 취득               |
-| AI NoCode·MCP Hackathon SEASON 2 | 과기정통부 · 한국지능정보사회진흥원 | 대상   |
+| AI NoCode·MCP Hackathon SEASON2 대상 | 과기정통부 · 한국지능정보사회진흥원 |  2025.11 수상  |
 | SSAFY 공통프로젝트 우수상         | 삼성청년SW아카데미(SSAFY) | 2026.02 수상               |
-
 
 <br><br>
 
