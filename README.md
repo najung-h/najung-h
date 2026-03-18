@@ -64,8 +64,8 @@
       Hi, I'm <b>Junghyun Na 👋</b>
     </h2>
     <p style="line-height: 1.8; font-size: 15.5px; color: rgba(255,255,255,0.9); margin: 0 20px;">
-      FULL STACK Engineer & AI Learner.<br>
-      Passionate about <b>Devops - MLOps - AI - Data Analytics - BE - FE</b>.<br>
+      FULL STACK Data Engineer & AI Learner.<br>
+      Passionate about <b>Data Pipeline - AI - Data Analytics - Devops - MLOps - BE - FE</b>.<br>
       I love crafting clean architectures and elegant automation.<br><br>
       <i>"오늘 하루도 최선을 다하자"</i>
     </p>
