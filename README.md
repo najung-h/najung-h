@@ -104,7 +104,6 @@
     </p>
   </div>
 </div>
-
 <br><br>
 
 
@@ -139,38 +138,6 @@
 </div>
 
 
-
-
-
-<!-- 배지 1
-
- <div align="center" style="margin: 20px 0 10px;">
-  <a href="https://github.com/najung-h/portfolio">
-    <img src="https://img.shields.io/badge/🚀%20Portfolio%20Repository-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</div>
- -->
-
-<!-- 배지 2 -->
-<div align="center" style="margin: 14px 0 6px 0;">
-  <a href="https://github.com/najung-h/portfolio" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Archive%20of%20Projects%20%26%20Insights-ec8db8?style=for-the-badge&logo=github&logoColor=white"
-      alt="Archive of Projects and Insights"
-    />
-  </a>
-</div>
-
-
-
-<!-- 설명 -->
-
-<h3 align="center" style="margin: 0 0 10px; color: #ffb6c1; font-weight: 600; letter-spacing: 0.5px;">
-    아카이브
-</h3>
-<p align="center" style="margin-top: 24px; margin-bottom: 8px;">
-  KPT · TIL · Trouble Shooting · Projects · Insights
-</p>
 
 
 <br> <br> <br>
