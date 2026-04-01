@@ -153,7 +153,6 @@
 
 <div align="center">
 
-<br><br>
 
 ### 📜 Awards
 
@@ -180,7 +179,9 @@
 | ------------ | ------ | ------------------------- | --------------- |
 | IBK 기업은행 | 디지털 | 경제연구소 중기산업연구실 | 2024.01-2024.02 |
 
-<br><br>
+<br><br><br>
+
+
 
 </div>
 
@@ -243,13 +244,15 @@
 
 <!-- 허수아비 -->
 
+<div align="center">
+
 ### 🪺 허수아비
 > **팀 프로젝트 · BE/DE · 공항 조류충돌 예방 서비스**
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong>[실시간] 레이더 및 CCTV 수신<br/>
+      <strong>[실시간] 레이더 및 CCTV 수신</strong><br/>
       <img src="./assets/birdybuddy1.gif" alt="" width="360"/>
     </td>
     <td align="center" width="50%">
@@ -258,6 +261,7 @@
     </td>
   </tr>
 </table>
+
 Kafka + Spark + Hadoop + Yolo 을 이용해,  
 공항 조류충돌 실시간 위험을 확인하고  
 장기 통계 분석 및 시각화를 진행합니다.
@@ -266,8 +270,7 @@ Kafka + Spark + Hadoop + Yolo 을 이용해,
 
 ---
 
-
-
+</div>
 
 
 <!-- 라이프런 -->
