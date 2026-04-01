@@ -73,6 +73,25 @@
 </div>
 <br><br>
 
+<div align="center" style="margin-top: 24px; margin-bottom: 8px;">
+
+  <h3 style="color:#ffb6c1; margin-bottom:6px;">
+    Explore My Portfolio
+  </h3>
+
+  <p style="font-size: 13px; color: rgba(255,255,255,0.7); margin-bottom: 12px;">
+    Data Pipeline · AI · UI/UX · Full stacks · Architecture · 
+  </p>
+
+  <a href="https://github.com/najung-h">
+    <img src="https://img.shields.io/badge/GitHub%20Portfolio-ffb6c1?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+
+</div>
+
+
+
+
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
 
 
