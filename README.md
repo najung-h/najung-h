@@ -349,8 +349,10 @@ AI 기반 개인화 추천 시스템을 제공하는 온라인 강좌 학습 플
 ### 🎮 게임형 포트폴리오
 > **개인 포트폴리오**
 
+
+
 <a href="https://na-journey.netlify.app/" target="_blank">
-  <img src="./assets/portfolio.png" width="500px" />
+  <img src="./assets/na-journey-resized.gif" width="500px" />
 </a>
 
 React + Tailwind로 만든 **애니메이션 인터랙션형 포트폴리오**입니다.
