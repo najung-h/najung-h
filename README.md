@@ -47,7 +47,7 @@
   <a href="https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/" aria-label="LinkedIn Profile">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  
+
 </div>
 
 <br><br>
@@ -110,7 +110,7 @@
 
 
 <!-- 포트폴리오 레포지토리 -->
- 
+
 <!-- 배지 1
  <div align="center" style="margin: 20px 0 10px;">
   <a href="https://github.com/najung-h/portfolio">
@@ -121,7 +121,7 @@
 
 <!-- 배지 2 -->
 <div align="center" style="margin: 14px 0 6px 0;">
-  <a href="https://github.com/najung-h" target="_blank">
+  <a href="https://github.com/najung-h/portfolio" target="_blank">
     <img
       src="https://img.shields.io/badge/Archive%20of%20Projects%20%26%20Insights-ec8db8?style=for-the-badge&logo=github&logoColor=white"
       alt="Archive of Projects and Insights"
@@ -130,7 +130,9 @@
 </div>
 
 
+
 <!-- 설명 -->
+
 <h3 align="center" style="margin: 0 0 10px; color: #ffb6c1; font-weight: 600; letter-spacing: 0.5px;">
     아카이브
 </h3>
@@ -218,8 +220,21 @@
 ### 👶 아이타임 (AI-Time)
 > **팀 프로젝트 · AI · 자폐 진단 디지털 의료기기**
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>[의사] 검사 결과 조회</strong><br/>
+      <img src="./assets/aitime-image.png" alt="" width="360"/>
+    </td>
+    <td align="center" width="50%">
+      <strong>[보호자] 검사 주의사항 안내 및 시작 페이지</strong><br/>
+      <img src="./assets/aitime2.gif" alt="" width="360"/>
+    </td>
+  </tr>
+</table>
+
 <a href="https://i14a501.p.ssafy.io/" target="_blank">
-  <img src="./assets/aitime-image.png" width="500px" />
+  <img src="./assets/aitime-image.png" width="500px" /
 </a>
 
 영유아 행동 영상을 분석해 **ASD 행동 지표(눈맞춤, 호명반응, 모방행동)**를 자동 측정하는 AI 진단 보조 솔루션입니다.  
@@ -231,6 +246,41 @@
 ---
 
 </div>
+
+
+
+<!-- 허수아비 -->
+
+### 🪺 허수아비
+> **팀 프로젝트 · BE/DE · 공항 조류충돌 예방 서비스**
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>[실시간] 레이더 및 CCTV 수신<br/>
+      <img src="./assets/birdybuddy1.gif" alt="" width="360"/>
+    </td>
+    <td align="center" width="50%">
+      <strong>[장기분석] 레이더 및 CCTV 분석</strong><br/>
+      <img src="./assets/birdybuddy2.gif" alt="" width="360"/>
+    </td>
+  </tr>
+</table>
+
+<a href="https://j14a206a.p.ssafy.io/" target="_blank">
+  <img src="https://github.com/najung-h/najung-h/blob/master/assets/birdybuddy.png" width="500px" />
+</a>
+
+Kafka + Spark + Hadoop + Yolo 을 이용해,  
+공항 조류충돌 실시간 위험을 확인하고  
+장기 통계 분석 및 시각화를 진행합니다.
+
+🔗 [사이트 바로가기](https://j14a206a.p.ssafy.io/) · [GitHub](https://github.com/najung-h/project-birdybuddy)
+
+---
+
+
+
 
 
 <!-- 라이프런 -->
@@ -261,9 +311,20 @@ AI 기반 개인화 추천 시스템을 제공하는 온라인 강좌 학습 플
 ### 🚇 쉽길 (Wisheasy)
 > **팀 프로젝트 · PM /INFRA · 지하철 에스컬레이터 환승 경로 탐색**
 
-<a href="https://www.wisheasy.site/" target="_blank">
-  <img src="./assets/wisheasy.png" width="500px" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>카드형 이동 안내</strong><br/>
+      <img src="./assets/wisheasy1.gif" alt="" width="360"/>
+    </td>
+    <td align="center" width="50%">
+      <strong>역사 기본 정보 조회</strong><br/>
+      <img src="./assets/wisheasy2.gif" alt="" width="360"/>
+    </td>
+  </tr>
+</table>
+
+
 
 지하철 역사 내 **에스컬레이터 기반 최적 이동 동선 안내 서비스**입니다.  
 입력한 출·도착역 기준으로 **스토리 카드 형식**으로 이동 경로를 안내합니다.
