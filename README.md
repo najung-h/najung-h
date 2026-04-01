@@ -47,7 +47,6 @@
   <a href="https://www.linkedin.com/in/%EC%A0%95%ED%98%84-%EB%82%98-1145a62b8/" aria-label="LinkedIn Profile">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-
 </div>
 
 <br><br>
@@ -95,7 +94,7 @@
 ">
   <div style="text-align:center;">
     <a href="https://hadahae2024.tistory.com" target="_blank" rel="noopener noreferrer">
-      <img src="images/image-Photoroom.png" 
+      <img src="assets/ssafycial.png" 
            alt="기술 블로그" 
            style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
     </a>
@@ -105,13 +104,46 @@
     </p>
   </div>
 </div>
+
 <br><br>
 
 
 
 <!-- 포트폴리오 레포지토리 -->
 
+<div align="center" style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.07);
+  border-radius: 20px;
+  padding: 26px 32px;
+  box-shadow: 0 12px 36px rgba(255,182,193,0.25);
+  margin: 20px auto 0;
+  backdrop-filter: blur(8px);
+  width: fit-content;
+">
+  <div style="text-align:center;">
+    <a href="https://github.com/najung-h/portfolio" target="_blank" rel="noopener noreferrer">
+      <img src="assets/archive.png" 
+           alt="Portfolio" 
+           style="width: 360px; max-width: 420px; border-radius: 16px; box-shadow: 0 6px 18px rgba(255,192,203,0.25);">
+    </a>
+    <h3 style="margin: 10px 0 4px; font-size: 18px; color: #3b3b3b;">아카이브 (Archive)</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin-top: 8px;">
+      KPT · TIL · Trouble Shooting · Projects · Insights 를 기록합니다.<br/>
+    </p>
+  </div>
+</div>
+
+
+
+
+
 <!-- 배지 1
+
  <div align="center" style="margin: 20px 0 10px;">
   <a href="https://github.com/najung-h/portfolio">
     <img src="https://img.shields.io/badge/🚀%20Portfolio%20Repository-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
@@ -232,11 +264,6 @@
     </td>
   </tr>
 </table>
-
-<a href="https://i14a501.p.ssafy.io/" target="_blank">
-  <img src="./assets/aitime-image.png" width="500px" /
-</a>
-
 영유아 행동 영상을 분석해 **ASD 행동 지표(눈맞춤, 호명반응, 모방행동)**를 자동 측정하는 AI 진단 보조 솔루션입니다.  
 비전 · 음성 기반 **행동 분석 파이프라인**을 통해 행동 데이터를 정량화하고 의사 대시보드로 제공합니다.  
 최대 **1년 이상 발생하는 ASD 진단 대기 문제를 완화**하고 조기 치료 개입을 지원합니다.
@@ -266,11 +293,6 @@
     </td>
   </tr>
 </table>
-
-<a href="https://j14a206a.p.ssafy.io/" target="_blank">
-  <img src="https://github.com/najung-h/najung-h/blob/master/assets/birdybuddy.png" width="500px" />
-</a>
-
 Kafka + Spark + Hadoop + Yolo 을 이용해,  
 공항 조류충돌 실시간 위험을 확인하고  
 장기 통계 분석 및 시각화를 진행합니다.
@@ -323,7 +345,6 @@ AI 기반 개인화 추천 시스템을 제공하는 온라인 강좌 학습 플
     </td>
   </tr>
 </table>
-
 
 
 지하철 역사 내 **에스컬레이터 기반 최적 이동 동선 안내 서비스**입니다.  
