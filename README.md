@@ -107,7 +107,7 @@
 </div>
 <br><br>
 
----
+
 
 <!-- 포트폴리오 레포지토리 -->
  
@@ -131,17 +131,13 @@
 
 
 <!-- 설명 -->
-<div align="center" style="margin-top: 24px; margin-bottom: 8px;">
+<h3 align="center" style="margin: 0 0 10px; color: #ffb6c1; font-weight: 600; letter-spacing: 0.5px;">
+    아카이브
+</h3>
+<p align="center" style="margin-top: 24px; margin-bottom: 8px;">
+  KPT · TIL · Trouble Shooting · Projects · Insights
+</p>
 
-  <h3 style="color:#ffb6c1; margin-bottom:6px;">
-    Portfolio
-  </h3>
-
-  <p>
-    KPT · TIL · Trouble Shooting · Projects · Insights
-  </p>
-
-</div>
 
 <br> <br> <br>
 
