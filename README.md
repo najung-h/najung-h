@@ -35,7 +35,7 @@
   <!-- <a href="https://najungh.site" aria-label="Portfolio Site">
     <img src="https://img.shields.io/badge/Portfolio-najungh.site-ffb6c1?style=flat-square&logo=aboutdotme&logoColor=white" alt="Portfolio Badge"/>
   </a> -->
-  <a href="https://github.com/najung-h">
+  <a href="https://github.com/najung-h/portfolio">
     <img src="https://img.shields.io/badge/GitHub%20Portfolio-ffb6c1?style=flat-square&logo=github&logoColor=white"/>
   </a>
   &nbsp;
