@@ -77,28 +77,6 @@
 </div>
 <br><br>
 
-<div align="center" style="margin-top: 24px; margin-bottom: 8px;">
-
-  <h3 style="color:#ffb6c1; margin-bottom:6px;">
-    Explore My Portfolio
-  </h3>
-
-  <p>
-    KPT / TIL / TroubleShooting / Projects / Insights
-  </p>
-
-</div>
-
-
-<div align="center" style="margin: 20px 0 10px;">
-  <a href="https://github.com/najung-h/portfolio">
-    <img src="https://img.shields.io/badge/🚀%20Portfolio%20Repository-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</div>
-
-<br>
- <br>
-
  <!-- 블로그 카드 (단일) -->
 
 <div align="center" style="
@@ -129,8 +107,32 @@
 </div>
 <br><br>
 
- <br>
+<!-- 포트폴리오 레포지토리 -->
  
+<!-- 배지 -->
+ <div align="center" style="margin: 20px 0 10px;">
+  <a href="https://github.com/najung-h/portfolio">
+    <img src="https://img.shields.io/badge/🚀%20Portfolio%20Repository-ff69b4?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</div>
+
+
+<!-- 설명 -->
+<div align="center" style="margin-top: 24px; margin-bottom: 8px;">
+
+  <h3 style="color:#ffb6c1; margin-bottom:6px;">
+    Portfolio
+  </h3>
+
+  <p>
+    KPT · TIL · Trouble Shooting · Projects · Insights
+  </p>
+
+</div>
+
+<br> <br> <br>
+
+<!-- 3D 잔디 -->
 <img src="https://raw.githubusercontent.com/najung-h/najung-h/master/dist/metrics-6m.svg" width="1000">
 
 
