@@ -48,7 +48,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
-
 <br><br>
 
 <!-- 소개 섹션 -->
@@ -151,10 +150,12 @@
 ---
 <br><br>
 
-<div align="center">
 ### 📜 Awards
 
-| 자격증명 / 수상명                    | 주관               | 일자    |
+<div align="center">
+
+
+| 수상명                               | 주관               | 일자    |
 | ------------------------------------ | ------------------ | ------- |
 | AI NoCode·MCP Hackathon SEASON2 대상 | 과학기술정보통신부 | 2025.11 |
 | SSAFY 공통프로젝트 우수상            | 삼성전자 주식회사  | 2026.02 |
